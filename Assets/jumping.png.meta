@@ -159,8 +159,8 @@ TextureImporter:
         y: 454
         width: 885
         height: 1236
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7561205, y: 0.5122258}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: jumping_7
       rect:
         serializedVersion: 2
-        x: 2343
+        x: 2339
         y: 2079
         width: 769
         height: 880
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5049127, y: 0.36262622}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,8 +264,8 @@ TextureImporter:
         y: 2079
         width: 771
         height: 880
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49510008, y: 0.3840909}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,8 +285,8 @@ TextureImporter:
         y: 2079
         width: 810
         height: 880
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5046646, y: 0.3797979}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

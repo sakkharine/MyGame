@@ -4,8 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class characterController : MonoBehaviour
 {
-    
-
     [Header("Movement")]
     public float maxSpeed = 8f;
     public float groundDrag = 5f;
@@ -14,7 +12,7 @@ public class characterController : MonoBehaviour
     [Header("Jump/Fly")]
     public float jumpVelocity = 12f;
     public float flyingForce = 80f;
-    public float flyingTime = 2f;   // 🟢 максимум времени полёта
+    public float flyingTime = 2f;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -26,20 +24,17 @@ public class characterController : MonoBehaviour
     private Rigidbody2D rb2d;
     private Collider2D col;
 
-    // state
     private bool facingRight = true;
     private bool grounded = false;
-    private bool hasFlyAbility = false; // 🟢 способность получена через триггер
-    private bool canFly = false;        // 🟢 текущая возможность летать (перезаряжается)
+    private bool hasFlyAbility = false;
+    private bool canFly = false;
     private bool isJumping = false;
     private Coroutine flightCoroutine;
 
-    private Vector2 groundNormal = Vector2.up;
-
-    // animator keys
     private const string STATE_PARAM = "state";
     private const string JUMP_TRIGGER = "jumpTrigger";
-    private const string SPEED_PARAM = "speed";
+    private const string X_SPEED_PARAM = "xSpeed";
+    private const string Y_SPEED_PARAM = "ySpeed";
     private const string GROUNDED_PARAM = "isGrounded";
 
     void Awake()
@@ -82,7 +77,6 @@ public class characterController : MonoBehaviour
         {
             isJumping = false;
             if (hasFlyAbility) canFly = true;
-            Debug.Log("🟢 Персонаж приземлился — полёт снова доступен и анимация сброшена");
         }
         MoveHorizontal(inputHorizontal); 
 
@@ -106,7 +100,7 @@ public class characterController : MonoBehaviour
         if (grounded && Mathf.Abs(move) > 0.1f)
         {
             if (!IsInvoking("PlayFootstep"))
-                Invoke("PlayFootstep", 0.8f); // частота шагов
+                Invoke("PlayFootstep", 0.8f);
         }
 
 
@@ -118,20 +112,15 @@ public class characterController : MonoBehaviour
 
     void ProcessJumpOrFly()
     {
-        Debug.Log($"ProcessJumpOrFly — grounded={grounded}, canFly={canFly}, hasFlyAbility={hasFlyAbility}");
-
         if (grounded)
         {
-            // обычный прыжок
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpVelocity);
             isJumping = true;
             grounded = false;
             TriggerJumpAnimation();
-            Debug.Log("Прыжок выполнен");
             return;
         }
 
-        // 🔵 если есть способность и возможность летать
         if (hasFlyAbility && canFly)
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, 0f);
@@ -139,26 +128,19 @@ public class characterController : MonoBehaviour
             isJumping = true;
             TriggerJumpAnimation();
 
-            Debug.Log("Полет начат");
-
-            // 🔵 запускаем таймер полёта
             if (flightCoroutine != null)
                 StopCoroutine(flightCoroutine);
             flightCoroutine = StartCoroutine(FlightDisableTimer(flyingTime));
 
             return;
         }
-
-        Debug.Log("❌ Полёт невозможен: нет способности или таймер ещё не перезарядился");
     }
 
     IEnumerator FlightDisableTimer(float seconds)
     {
         canFly = false; // чтобы нельзя было спамить
-        Debug.Log($"⏳ Полёт доступен {seconds} сек");
         yield return new WaitForSeconds(seconds);
         canFly = false;
-        Debug.Log("🔴 Время полёта истекло — нужно приземлиться");
         flightCoroutine = null;
     }
 
@@ -189,7 +171,8 @@ public class characterController : MonoBehaviour
         if (anim == null) return;
 
         anim.SetBool(GROUNDED_PARAM, grounded);
-        anim.SetFloat(SPEED_PARAM, Mathf.Abs(rb2d.velocity.x));
+        anim.SetFloat(X_SPEED_PARAM, Mathf.Abs(rb2d.velocity.x));
+        anim.SetFloat(Y_SPEED_PARAM, rb2d.velocity.y);
 
         float hspeed = Mathf.Abs(rb2d.velocity.x);
         if (isJumping || !grounded)
@@ -206,12 +189,10 @@ public class characterController : MonoBehaviour
         transform.localScale = s;
     }
 
-    // 🟢 Вызывается из триггера — впервые активирует способность
     public void GiveFlyAbility()
     {
         hasFlyAbility = true;
         canFly = true;
-        Debug.Log("💫 Получена способность к полёту!");
     }
 
     void OnTriggerEnter2D(Collider2D col)
