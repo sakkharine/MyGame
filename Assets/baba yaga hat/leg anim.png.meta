@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: b9a492ca0632206479ad7e1bca1fbc13
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: leg anim_6
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1804
+        width: 804
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56bd837dc76ef5438d8747f8700b2de
+      internalID: -1508188828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_10
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 1804
+        width: 831
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1433c3c7a709548b36bef2676e8090
+      internalID: -1895883681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1804
+        width: 818
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63028b305c566f041b9fdf18f6ac6d9f
+      internalID: 905592025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_26
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 1785
+        width: 817
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078737d6cca22044aaa9433ce68f5159
+      internalID: 1608282560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_27
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 1785
+        width: 806
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cfb258dd5d3614f9bf375dc590b40e
+      internalID: -1127148466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_29
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 1768
+        width: 789
+        height: 1030
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9841689930554f049834463c681f267f
+      internalID: 1329779981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_32
+      rect:
+        serializedVersion: 2
+        x: 5577
+        y: 1766
+        width: 776
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa6d3e474c25d646af2a674a9b32b48
+      internalID: -131833014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_33
+      rect:
+        serializedVersion: 2
+        x: 6941
+        y: 2793
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab65bc664f96ee448ac832ad82df5078
+      internalID: 2038161670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_34
+      rect:
+        serializedVersion: 2
+        x: 7104
+        y: 2787
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d35713c60bd4f4384bac7e4299136d
+      internalID: 387971513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_35
+      rect:
+        serializedVersion: 2
+        x: 6456
+        y: 1747
+        width: 780
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15fe960de9662f4ab1c993bac994cf3
+      internalID: 803959482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_36
+      rect:
+        serializedVersion: 2
+        x: 7829
+        y: 2765
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fe95b570f9a3f46a8379d00f8d30de
+      internalID: 1819512907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_37
+      rect:
+        serializedVersion: 2
+        x: 7993
+        y: 2760
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83a09ac88cf7884b8c1621f3f4f9178
+      internalID: 1510688157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_38
+      rect:
+        serializedVersion: 2
+        x: 8187
+        y: 1733
+        width: 766
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb852eca6b589049853b344e7d115c0
+      internalID: 883317088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_39
+      rect:
+        serializedVersion: 2
+        x: 7347
+        y: 1724
+        width: 779
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b9acfaae21f594b83e69f922331d0d
+      internalID: 185164680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_40
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 414
+        width: 790
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2c2e9f3bbfdd346974c8083b1f6b33
+      internalID: 1926865537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_41
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 414
+        width: 901
+        height: 1055
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458e5e68942008a42b5d053ca8031e2e
+      internalID: -1868106283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_42
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 410
+        width: 933
+        height: 1056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9310aa43cfc174eae793f18ac61f8d
+      internalID: -1692844277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_43
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 409
+        width: 898
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356f9eb06044a0a41a2c3908cda7c984
+      internalID: 1509136880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_44
+      rect:
+        serializedVersion: 2
+        x: 4721
+        y: 409
+        width: 794
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b00f3be6e33db4ca041be989ca4ac0
+      internalID: 1269721754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_45
+      rect:
+        serializedVersion: 2
+        x: 5685
+        y: 409
+        width: 766
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a73f9e9e0a8f4045bf1274c172f79d2
+      internalID: 977423291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_48
+      rect:
+        serializedVersion: 2
+        x: 6570
+        y: 382
+        width: 779
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0fcd22ba8dfc7409eac28069d10925
+      internalID: -463065755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_53
+      rect:
+        serializedVersion: 2
+        x: 7467
+        y: 349
+        width: 780
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb08e091b131e8c449c9819e556ad897
+      internalID: -1653691051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leg anim_54
+      rect:
+        serializedVersion: 2
+        x: 8327
+        y: 349
+        width: 804
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f488b07972dac14cb61864da28548b1
+      internalID: -1507216969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      leg anim_0: 1310082027
+      leg anim_1: 1719047018
+      leg anim_10: -1895883681
+      leg anim_11: -53491620
+      leg anim_12: 1577234527
+      leg anim_13: 905592025
+      leg anim_14: -628741424
+      leg anim_15: 1864558557
+      leg anim_16: -1846585629
+      leg anim_17: 1137904622
+      leg anim_18: -2061898916
+      leg anim_19: 1128342759
+      leg anim_2: -699569140
+      leg anim_20: 334206937
+      leg anim_21: 1785521386
+      leg anim_22: -1832334681
+      leg anim_23: -1025618547
+      leg anim_24: -1942259390
+      leg anim_25: -1590044762
+      leg anim_26: 1608282560
+      leg anim_27: -1127148466
+      leg anim_28: 1962088529
+      leg anim_29: 1329779981
+      leg anim_3: -1625463675
+      leg anim_30: 347112410
+      leg anim_31: 541306144
+      leg anim_32: -131833014
+      leg anim_33: 2038161670
+      leg anim_34: 387971513
+      leg anim_35: 803959482
+      leg anim_36: 1819512907
+      leg anim_37: 1510688157
+      leg anim_38: 883317088
+      leg anim_39: 185164680
+      leg anim_4: 1154678010
+      leg anim_40: 1926865537
+      leg anim_41: -1868106283
+      leg anim_42: -1692844277
+      leg anim_43: 1509136880
+      leg anim_44: 1269721754
+      leg anim_45: 977423291
+      leg anim_46: 359292080
+      leg anim_47: -1640356551
+      leg anim_48: -463065755
+      leg anim_49: -1077028652
+      leg anim_5: -357213262
+      leg anim_50: 1396029392
+      leg anim_51: 288635434
+      leg anim_52: -1387286504
+      leg anim_53: -1653691051
+      leg anim_54: -1507216969
+      leg anim_6: -1508188828
+      leg anim_7: 1247807095
+      leg anim_8: -2032846567
+      leg anim_9: -2055063332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

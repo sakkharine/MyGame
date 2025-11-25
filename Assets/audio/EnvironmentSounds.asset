@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b41ce7744242e41995c41aaf0a0e25, type: 3}
+  m_Name: EnvironmentSounds
+  m_EditorClassIdentifier: 
+  jump: {fileID: 0}
+  hit: {fileID: 0}
+  pickup: {fileID: 0}
+  footsteps:
+  - {fileID: 8300000, guid: 8001cba45a5837a4181724fcef31a15a, type: 3}
+  - {fileID: 8300000, guid: 3b3633de34083184bb4e478ef93679e7, type: 3}
+  - {fileID: 8300000, guid: 936a2df9bc237b64ca832e4e24d8d679, type: 3}
+  grassSteps: []
+  rockSteps: []

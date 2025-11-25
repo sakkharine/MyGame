@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: c0abc119b7aebdf46b1e50a32cb88347
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: all the baba hata_0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2931
+        width: 788
+        height: 1040
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa8b7dba1acccd4a9ab541fdca73162
+      internalID: -904540633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_1
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 3967
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0739753ba0c1d4b800f380a7243e47
+      internalID: 712592987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 3968
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876c1ccf4b29b564190d8e115bfb94cc
+      internalID: 1368694396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_3
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 2936
+        width: 772
+        height: 1084
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ca23450d8d7247b5afa2fe3f3faef
+      internalID: 1829464546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_4
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 2936
+        width: 772
+        height: 1084
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ddd4f744396794aa722d8e3e0c8f61
+      internalID: -391783872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_5
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 2964
+        width: 728
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c5172bd861b0f4f8931c8433f98c64
+      internalID: -364883640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_6
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 2931
+        width: 690
+        height: 1067
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e53ab9a8abfaf4b9f0f3eb8a17082b
+      internalID: 2128250058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_7
+      rect:
+        serializedVersion: 2
+        x: 5233
+        y: 2936
+        width: 679
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeda19f653894b46abad2d4cf42860f
+      internalID: -836803545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_8
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 2936
+        width: 701
+        height: 1051
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3c6d33a1c6fc542b8375059690223d
+      internalID: 1255871164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_9
+      rect:
+        serializedVersion: 2
+        x: 6920
+        y: 2876
+        width: 644
+        height: 1094
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389089da4054e374d85e360390d27c3a
+      internalID: 1935904331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_10
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2942
+        width: 678
+        height: 968
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5439f28daffaf4489af3702707b5f3
+      internalID: 2062431083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_11
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 3665
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab4545c931bd284ab9a5ca2021269f7
+      internalID: -1068617767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_12
+      rect:
+        serializedVersion: 2
+        x: 7211
+        y: 2828
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af50c64154256e46918d6806b7c14a6
+      internalID: 998557988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1579
+        width: 690
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749b991e475e8984497b1d4f9573a4a8
+      internalID: -577346670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_14
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1590
+        width: 700
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74db2227fc957b242a2ff7a655be9d30
+      internalID: 1977549179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_15
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1590
+        width: 783
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d224186d1a6264d45b17028ec5c36218
+      internalID: 1343663877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_16
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 1574
+        width: 733
+        height: 1105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c25f3614373954a8bb32b02b1f3342
+      internalID: 987365537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_17
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 1590
+        width: 822
+        height: 1116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aba940dd3648a340b21b324714bcdff
+      internalID: -1552844874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_18
+      rect:
+        serializedVersion: 2
+        x: 4439
+        y: 1569
+        width: 805
+        height: 1154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e69c3677f2cfe4bbd207900a490120
+      internalID: -2101367088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_19
+      rect:
+        serializedVersion: 2
+        x: 5321
+        y: 1568
+        width: 750
+        height: 1122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cac30536a209d4faecd87c7fc4cdc1
+      internalID: -1384131736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_20
+      rect:
+        serializedVersion: 2
+        x: 6137
+        y: 1524
+        width: 859
+        height: 1133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bfd3784ed601c4880e286a1c6c8bac
+      internalID: 2019278095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_21
+      rect:
+        serializedVersion: 2
+        x: 6271
+        y: 2636
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0f0ff2ae5025c42ba896c1a9d6bbb7
+      internalID: -1806968005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_22
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2455
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68beb1a8f34a7d241bac0924aabe3d27
+      internalID: -897691594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_23
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 2395
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d15930027df8bd4e886cae444a90e6b
+      internalID: 540684730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_24
+      rect:
+        serializedVersion: 2
+        x: 7027
+        y: 1795
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8499351da5c5b14428bb04ec835e7750
+      internalID: 1133383440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1509
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fd7757d32fdcd4d98b0fb6aea5dd30
+      internalID: 1692439302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_26
+      rect:
+        serializedVersion: 2
+        x: 6334
+        y: 386
+        width: 821
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c97e969d5453c64d9ab50f6b485a4d0
+      internalID: -2031830218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 299
+        width: 888
+        height: 1184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40183a48a03b4a846acad81efdb2f575
+      internalID: -516413089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_28
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 315
+        width: 821
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37d8f1f2a27c72478adb59ba6cd04f6
+      internalID: -371621129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_29
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 353
+        width: 821
+        height: 1133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaed58e113247b44a3bcbced7444a20
+      internalID: 1302658872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_30
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 353
+        width: 854
+        height: 1133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bd8ab3d0d6e4248b9d77632e0a97f0
+      internalID: -1703964890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_31
+      rect:
+        serializedVersion: 2
+        x: 4603
+        y: 375
+        width: 822
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692cbdbbb649440408243db481391e76
+      internalID: -722756315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_32
+      rect:
+        serializedVersion: 2
+        x: 5518
+        y: 386
+        width: 799
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3242e6885bafc6b4fb629e5b8cd806e9
+      internalID: -1892219591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_33
+      rect:
+        serializedVersion: 2
+        x: 7309
+        y: 326
+        width: 854
+        height: 1133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c572f97970b7b40a9ea334f6db9348
+      internalID: 1095887390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_34
+      rect:
+        serializedVersion: 2
+        x: 8333
+        y: 326
+        width: 821
+        height: 1133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dd0517ffe2b714f84d250fc4ff64d3
+      internalID: -1583892055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_36
+      rect:
+        serializedVersion: 2
+        x: 9338
+        y: 299
+        width: 898
+        height: 1157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b7c2e28acc50f42820f4c0791533d3
+      internalID: 1734404639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: all the baba hata_37
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 300
+        width: 883
+        height: 1174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8981f7de6ea3f0e45a9b2f1273067d17
+      internalID: -1242997584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      all the baba hata_0: -904540633
+      all the baba hata_1: 712592987
+      all the baba hata_10: 2062431083
+      all the baba hata_11: -1068617767
+      all the baba hata_12: 998557988
+      all the baba hata_13: -577346670
+      all the baba hata_14: 1977549179
+      all the baba hata_15: 1343663877
+      all the baba hata_16: 987365537
+      all the baba hata_17: -1552844874
+      all the baba hata_18: -2101367088
+      all the baba hata_19: -1384131736
+      all the baba hata_2: 1368694396
+      all the baba hata_20: 2019278095
+      all the baba hata_21: -1806968005
+      all the baba hata_22: -897691594
+      all the baba hata_23: 540684730
+      all the baba hata_24: 1133383440
+      all the baba hata_25: 1692439302
+      all the baba hata_26: -2031830218
+      all the baba hata_27: -516413089
+      all the baba hata_28: -371621129
+      all the baba hata_29: 1302658872
+      all the baba hata_3: 1829464546
+      all the baba hata_30: -1703964890
+      all the baba hata_31: -722756315
+      all the baba hata_32: -1892219591
+      all the baba hata_33: 1095887390
+      all the baba hata_34: -1583892055
+      all the baba hata_35: -1834823076
+      all the baba hata_36: 1734404639
+      all the baba hata_37: -1242997584
+      all the baba hata_4: -391783872
+      all the baba hata_5: -364883640
+      all the baba hata_6: 2128250058
+      all the baba hata_7: -836803545
+      all the baba hata_8: 1255871164
+      all the baba hata_9: 1935904331
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

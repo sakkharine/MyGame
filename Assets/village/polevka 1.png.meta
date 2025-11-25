@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: 1da637ec8f8d98441a80e388a4c86fd5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: polevka 5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1529
+        width: 568
+        height: 363
+      alignment: 9
+      pivot: {x: 0.4715129, y: 0.5060154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e08b2068cbc294c8545e81d74249ac
+      internalID: -2117567274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1884
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3adce30515db2444abebd7d44b7be25
+      internalID: -547634916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 4
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1527
+        width: 473
+        height: 359
+      alignment: 9
+      pivot: {x: 0.46942836, y: 0.5079655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20efcd1d21921e0459b2313fbf67b30e
+      internalID: 2046211490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1884
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092019ef031874241ac8323899550be3
+      internalID: -1302310572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_4
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1884
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95a7ec6364daa044af7836ab844c8a2
+      internalID: -824429309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_5
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1884
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11bee379795c614dbd947f007dd3447
+      internalID: 353190215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_6
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1874
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc37204fe9c13f4181edb5a7d8cfa93
+      internalID: 1385488568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_7
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1629
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86c3c4ef755c304286f68093409a4ec
+      internalID: 561770057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 3
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1517
+        width: 403
+        height: 352
+      alignment: 9
+      pivot: {x: 0.48086494, y: 0.54738826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfa1439e02b7cc46a17edaee3a309ee
+      internalID: 534978905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 2
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1513
+        width: 380
+        height: 331
+      alignment: 9
+      pivot: {x: 0.49970126, y: 0.5955984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dfb72ff0a730c4388fe515b91798de
+      internalID: 49312350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1491
+        width: 335
+        height: 347
+      alignment: 9
+      pivot: {x: 0.5061516, y: 0.63377887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ba5e41ea1ed3149a50901b99874b4c
+      internalID: 1868646207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_11
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 1618
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e98b309e2470c2499916a963dd33308
+      internalID: -797857343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 995
+        width: 626
+        height: 341
+      alignment: 9
+      pivot: {x: 0.51292783, y: 0.38431635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43df54d7beae1346b7189c719542bb5
+      internalID: -11214649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_13
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1332
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9754833d98640f6428c3cd6d0e9f3cc3
+      internalID: -1249144506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 988
+        width: 619
+        height: 345
+      alignment: 9
+      pivot: {x: 0.50912666, y: 0.3399913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0511fc407411a4ba606f20ea6911d8
+      internalID: 2022993104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_15
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1329
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc69a153c2c705d4f8b9a42977106c51
+      internalID: 1885058207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 8
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 990
+        width: 620
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5095321, y: 0.30833274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed527ef4a1697848bd23e043e839a6b
+      internalID: 2010005092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 9
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 972
+        width: 618
+        height: 376
+      alignment: 9
+      pivot: {x: 0.5101828, y: 0.27447444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8625acad3caa20419441dadd032e54d
+      internalID: 1516804998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_18
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 925
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df730835cfb1d4243a6b4b94b28eba83
+      internalID: -2043630735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_19
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 925
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dba0c8e471eb5648b2ba61ff1874179
+      internalID: -192375731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_20
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 928
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d6c34c2b14718469d80f3b3c5215cf
+      internalID: -577472278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 534
+        width: 617
+        height: 394
+      alignment: 9
+      pivot: {x: 0.51096296, y: 0.24551268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1801dc2926551294aa56ae5d30220122
+      internalID: 1216882294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_22
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 911
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33ff8ac5686a5047b489c0daacba1cb
+      internalID: -539942074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 187
+        width: 578
+        height: 375
+      alignment: 9
+      pivot: {x: 0.4979669, y: 0.33821672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4c69056e0242f46b280cd3ac4edbac
+      internalID: 793578219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 11
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 516
+        width: 613
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5126497, y: 0.21829952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f419bd0dfd8804db347d99fbb0c4de
+      internalID: -1964198818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 15
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 178
+        width: 572
+        height: 346
+      alignment: 9
+      pivot: {x: 0.49952814, y: 0.37747228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce23866f73f627748976461fb3ce57b7
+      internalID: 1779334096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 12
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 516
+        width: 615
+        height: 394
+      alignment: 9
+      pivot: {x: 0.51212066, y: 0.26149443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ab2664c070ce4983923d449453f7d
+      internalID: -631135701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 13
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 516
+        width: 614
+        height: 394
+      alignment: 9
+      pivot: {x: 0.5130599, y: 0.29838416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a4d14a2051104286a91ed714e96f3
+      internalID: -1472002249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 16
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 170
+        width: 490
+        height: 303
+      alignment: 9
+      pivot: {x: 0.50403404, y: 0.49539033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3542cb309399843b92d6f4f0cab779
+      internalID: -1947888615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_29
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 456
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1039f540d4c4c4448a17bba5ce3158e
+      internalID: -1403167336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_30
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 162
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99490f26741acba4d9f316b46f24aef1
+      internalID: -1767452755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_31
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 137
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c65f0a96346dc46a769cb201d33688
+      internalID: -2136248162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polevka 1_32
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 137
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e50e5744a71dc4683c7a38a1fc6442
+      internalID: -1787312868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      polevka 1: 1868646207
+      polevka 10: 1216882294
+      polevka 11: -1964198818
+      polevka 12: -631135701
+      polevka 13: -1472002249
+      polevka 14: 793578219
+      polevka 15: 1779334096
+      polevka 16: -1947888615
+      polevka 1_1: -547634916
+      polevka 1_11: -797857343
+      polevka 1_13: -1249144506
+      polevka 1_15: 1885058207
+      polevka 1_18: -2043630735
+      polevka 1_19: -192375731
+      polevka 1_20: -577472278
+      polevka 1_22: -539942074
+      polevka 1_29: -1403167336
+      polevka 1_3: -1302310572
+      polevka 1_30: -1767452755
+      polevka 1_31: -2136248162
+      polevka 1_32: -1787312868
+      polevka 1_4: -824429309
+      polevka 1_5: 353190215
+      polevka 1_6: 1385488568
+      polevka 1_7: 561770057
+      polevka 2: 49312350
+      polevka 3: 534978905
+      polevka 4: 2046211490
+      polevka 5: -2117567274
+      polevka 6: -11214649
+      polevka 7: 2022993104
+      polevka 8: 2010005092
+      polevka 9: 1516804998
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

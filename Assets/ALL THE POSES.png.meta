@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: bae2d52497380f64797c09de408f0d6e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ALL THE POSES_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1254
+        width: 549
+        height: 860
+      alignment: 9
+      pivot: {x: 0.5567447, y: 0.50603724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569685134bc5e1d40a929c5146a87cc1
+      internalID: 15368601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_1
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1193
+        width: 681
+        height: 944
+      alignment: 9
+      pivot: {x: 0.5304973, y: 0.5082501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658432217fba4e04a89a9a22151fda7a
+      internalID: -2001387838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_2
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1273
+        width: 791
+        height: 864
+      alignment: 9
+      pivot: {x: 0.5361021, y: 0.49399015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49479ca738164f41aa990487e3ee4e5
+      internalID: 795416603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_3
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 1349
+        width: 718
+        height: 797
+      alignment: 9
+      pivot: {x: 0.5180783, y: 0.4934851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6566cf5eb17804884567b78673e613
+      internalID: 1160437995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_4
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 1316
+        width: 661
+        height: 838
+      alignment: 9
+      pivot: {x: 0.5432025, y: 0.49380383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951c8f612703613408aaa50335c5c549
+      internalID: 525290076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_5
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1867
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ab940b5d854d344b1047cc3162b92e
+      internalID: -707049849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_6
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 1275
+        width: 601
+        height: 877
+      alignment: 9
+      pivot: {x: 0.5215977, y: 0.49111935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9430bf3f2737e744983e446126c94b13
+      internalID: 1004999688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_7
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 1857
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e250fbb4f6e272d488dc35981211159d
+      internalID: 644738984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_28
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 226
+        width: 370
+        height: 862
+      alignment: 9
+      pivot: {x: 0.33862254, y: 0.53011674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1a3c1625662194db946057e77bcc08
+      internalID: 981470834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_29
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 224
+        width: 589
+        height: 877
+      alignment: 9
+      pivot: {x: 0.41184804, y: 0.5207211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df16a7859ed0054f9e62df1e9f18eb4
+      internalID: 567449403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_30
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 308
+        width: 787
+        height: 805
+      alignment: 9
+      pivot: {x: 0.48020753, y: 0.5096745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd42733bc27774da90b9d543f8f429
+      internalID: 1918139563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_31
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 325
+        width: 752
+        height: 806
+      alignment: 9
+      pivot: {x: 0.47928634, y: 0.5096628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f761f1fbb28a34980257a1ef1f5aa0
+      internalID: 264298290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_32
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 294
+        width: 627
+        height: 830
+      alignment: 9
+      pivot: {x: 0.48343816, y: 0.50938314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491945ea217ac8f499a265989ed1772b
+      internalID: 434621490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL THE POSES_33
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 243
+        width: 592
+        height: 877
+      alignment: 9
+      pivot: {x: 0.5438525, y: 0.5177609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f11cc26eb619b64fa7855b033ea7962
+      internalID: -2061080560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ALL THE POSES_0: 15368601
+      ALL THE POSES_1: -2001387838
+      ALL THE POSES_10: 1632816891
+      ALL THE POSES_11: 470460575
+      ALL THE POSES_12: 9211922
+      ALL THE POSES_13: -1536876387
+      ALL THE POSES_14: -1312450133
+      ALL THE POSES_15: -1715855438
+      ALL THE POSES_16: -1971769836
+      ALL THE POSES_17: -1789820446
+      ALL THE POSES_18: 566223590
+      ALL THE POSES_19: 1795577292
+      ALL THE POSES_2: 795416603
+      ALL THE POSES_20: 505458380
+      ALL THE POSES_21: -1443386331
+      ALL THE POSES_22: -169501468
+      ALL THE POSES_23: 1698787425
+      ALL THE POSES_24: -1617049762
+      ALL THE POSES_25: -865566606
+      ALL THE POSES_26: -449203012
+      ALL THE POSES_27: -1507164720
+      ALL THE POSES_28: 981470834
+      ALL THE POSES_29: 567449403
+      ALL THE POSES_3: 1160437995
+      ALL THE POSES_30: 1918139563
+      ALL THE POSES_31: 264298290
+      ALL THE POSES_32: 434621490
+      ALL THE POSES_33: -2061080560
+      ALL THE POSES_4: 525290076
+      ALL THE POSES_5: -707049849
+      ALL THE POSES_6: 1004999688
+      ALL THE POSES_7: 644738984
+      ALL THE POSES_8: 426425394
+      ALL THE POSES_9: -1486912042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

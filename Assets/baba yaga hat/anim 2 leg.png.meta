@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: 76003e17a6ddbdb45a42c4ff02a43c8c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim 2 leg_0
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2993
+        width: 640
+        height: 1092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e29c7b6e12f30e44bb9aa4ca0c70c0f
+      internalID: -1772886680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_1
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 2993
+        width: 641
+        height: 1092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5814d277fec0c6248a8ded1c670cf37d
+      internalID: 1401217808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_2
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2993
+        width: 635
+        height: 1092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448e7467d8747964d923dce4af99e739
+      internalID: -1557348702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_3
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 2993
+        width: 636
+        height: 1092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a7c4a6949cc954a90c934d3f5e7f40
+      internalID: 336483557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_4
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 2993
+        width: 641
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e73404b8ce0be848942ec634f89169e
+      internalID: 441165483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_5
+      rect:
+        serializedVersion: 2
+        x: 4236
+        y: 2993
+        width: 640
+        height: 1092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0817b5bee10d7b94f87d0f4e7427710f
+      internalID: 952197426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_6
+      rect:
+        serializedVersion: 2
+        x: 4970
+        y: 2993
+        width: 641
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdf5796910d79a41a577de8fdf4d704
+      internalID: -375376629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_7
+      rect:
+        serializedVersion: 2
+        x: 5705
+        y: 2993
+        width: 640
+        height: 1092
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6341c059a455586479ce490de85574b6
+      internalID: 791070041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_16
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1749
+        width: 640
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f38f525eddc8f4d9c18843a9d09338
+      internalID: 1380848383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_17
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1749
+        width: 640
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6167b186b25b345b63b58432b6cf5b
+      internalID: -1042663478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_18
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 1749
+        width: 635
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d96756d876ccdd4390968782ffe1754
+      internalID: 1531356080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_19
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 1749
+        width: 635
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a901374c1b1e24db2ba1d12bc55680
+      internalID: -2027011677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_20
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 1749
+        width: 657
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.5127756, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f51d21b2f8abe94db73c7e4359ced3d
+      internalID: -970578156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_21
+      rect:
+        serializedVersion: 2
+        x: 4461
+        y: 1749
+        width: 693
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.54542, y: 0.5077218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415b5fc2d2a4c0945a0f9300362e2c4f
+      internalID: 1494275347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_22
+      rect:
+        serializedVersion: 2
+        x: 5285
+        y: 1749
+        width: 719
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.5674799, y: 0.49746695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69933d0387acab645be7fd07a5711d20
+      internalID: 2064343429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_30
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 599
+        width: 693
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.53907174, y: 0.49839297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad5ac301c8ca2c4886a2b7b05c6a88d
+      internalID: 916772117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_31
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 599
+        width: 656
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.5097617, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984f2816585787645988b31774f781b2
+      internalID: -1376866394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_32
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 599
+        width: 641
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.50954056, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5773a39920250042bb009cf59943dc1
+      internalID: -653715134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_33
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 599
+        width: 640
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.49880487, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f3446b1362bb8478da97b75cd50f57
+      internalID: -1900527726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim 2 leg_34
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 599
+        width: 640
+        height: 1087
+      alignment: 9
+      pivot: {x: 0.4990387, y: 0.5011322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73952804b16bf5c4bb8bf30e57869dd6
+      internalID: -1630690982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      anim 2 leg_0: -1772886680
+      anim 2 leg_1: 1401217808
+      anim 2 leg_10: -549157924
+      anim 2 leg_11: -1263768656
+      anim 2 leg_12: 1595556820
+      anim 2 leg_13: 1336310691
+      anim 2 leg_14: -2069082294
+      anim 2 leg_15: 565647287
+      anim 2 leg_16: 1380848383
+      anim 2 leg_17: -1042663478
+      anim 2 leg_18: 1531356080
+      anim 2 leg_19: -2027011677
+      anim 2 leg_2: -1557348702
+      anim 2 leg_20: -970578156
+      anim 2 leg_21: 1494275347
+      anim 2 leg_22: 2064343429
+      anim 2 leg_23: -642003958
+      anim 2 leg_24: -582028027
+      anim 2 leg_25: -1591964743
+      anim 2 leg_26: -1301911759
+      anim 2 leg_27: 39594184
+      anim 2 leg_28: 464731989
+      anim 2 leg_29: 908198902
+      anim 2 leg_3: 336483557
+      anim 2 leg_30: 916772117
+      anim 2 leg_31: -1376866394
+      anim 2 leg_32: -653715134
+      anim 2 leg_33: -1900527726
+      anim 2 leg_34: -1630690982
+      anim 2 leg_35: 458842575
+      anim 2 leg_36: 434822906
+      anim 2 leg_37: 1890795249
+      anim 2 leg_38: 1774553887
+      anim 2 leg_39: -727692436
+      anim 2 leg_4: 441165483
+      anim 2 leg_5: 952197426
+      anim 2 leg_6: -375376629
+      anim 2 leg_7: 791070041
+      anim 2 leg_8: -304143613
+      anim 2 leg_9: -26581957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
