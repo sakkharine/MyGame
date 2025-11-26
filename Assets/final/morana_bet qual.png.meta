@@ -1,0 +1,969 @@
+fileFormatVersion: 2
+guid: e32437127e0df284b9ea87de10bb66a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: morana_bet qual_0
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b638620ea76f5684692817f7df0a43e9
+      internalID: -928231258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_1
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a95ce43df1ffc9449326970ec05c450
+      internalID: 1452452335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_2
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8081b017ec170d241b2855d1ce01b80c
+      internalID: -1248372417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_3
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d49e9d55cfc984aa065d9641c12193
+      internalID: -1192493695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_4
+      rect:
+        serializedVersion: 2
+        x: 5197
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c6ddcba3343ff4fb436a44d7235257
+      internalID: 63233934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_5
+      rect:
+        serializedVersion: 2
+        x: 6461
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2830e4a896410604792492c8c94de679
+      internalID: 1267142108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_6
+      rect:
+        serializedVersion: 2
+        x: 7652
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c070676c11f67f43b5a894e58fdb94e
+      internalID: 646697451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_7
+      rect:
+        serializedVersion: 2
+        x: 8838
+        y: 8003
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66d61ca8a555804ab5e14082520b53b
+      internalID: 1644256820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_8
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 6478
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070a0b4a3ac6c9642a74e0e36aa823a2
+      internalID: -484410889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_9
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 6478
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d59e1bf93d13ba40ba4377bbbfb614d
+      internalID: 775422391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_10
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 6478
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975a13fa5ab8dee40abcbefe7751beb6
+      internalID: 1814482263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_11
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 6478
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e7573d09099e644a7f05e36d59216e
+      internalID: 1675004338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_12
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 6478
+        width: 1131
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901ce5204f88a9e48a03fd31f2f67a70
+      internalID: -252119218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_13
+      rect:
+        serializedVersion: 2
+        x: 6365
+        y: 6478
+        width: 1163
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e44295f527ef241854ef92ea72c597
+      internalID: 1502271211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_14
+      rect:
+        serializedVersion: 2
+        x: 7713
+        y: 6460
+        width: 1203
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a0adc5e9d3a7b42bc42b1b4e11feea
+      internalID: -551753978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_15
+      rect:
+        serializedVersion: 2
+        x: 8990
+        y: 6408
+        width: 1215
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a399b1910c3363468ebb8653ee972db
+      internalID: 833933073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 4990
+        width: 1219
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4205674476cbb15468d59249a7af306c
+      internalID: -249301721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_17
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 5000
+        width: 1225
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8878431d9038c43b58b7468a058518
+      internalID: -417853785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_18
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 4996
+        width: 1221
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0134e59c4242694dbcd55514cc5caee
+      internalID: -192967667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_19
+      rect:
+        serializedVersion: 2
+        x: 4565
+        y: 4994
+        width: 1224
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809b69acbff573844be03c795a626a70
+      internalID: -1119611838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_21
+      rect:
+        serializedVersion: 2
+        x: 5979
+        y: 4991
+        width: 1232
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcf870abbe8f6749a1da7c04fe5115b
+      internalID: -2012396712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_22
+      rect:
+        serializedVersion: 2
+        x: 7466
+        y: 5010
+        width: 1228
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5876f2794c0923438197649d57d2431
+      internalID: -1493405391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_23
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3318
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0044d120b14acd44a96abee47d85929b
+      internalID: 1040066262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_24
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 3342
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd15e1e72382d074fa21a216f56f5b16
+      internalID: -973900559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_25
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 3327
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7438e5fc9aee4594e85a2024d27c916a
+      internalID: 1963462041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_26
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 3317
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4ea85d886ad9f4d9665764b5203203
+      internalID: 657589296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_28
+      rect:
+        serializedVersion: 2
+        x: 5918
+        y: 3326
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc15636bf03d9d24faadd7aaf478d500
+      internalID: 2088147575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_29
+      rect:
+        serializedVersion: 2
+        x: 7327
+        y: 3316
+        width: 1100
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9153f20d842a084a8cdd65fdd64fd37
+      internalID: 1684704715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_30
+      rect:
+        serializedVersion: 2
+        x: 8542
+        y: 3263
+        width: 1216
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce454280a7c201d4693acdb8fd61964c
+      internalID: 1540022695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_31
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1870
+        width: 1279
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eef66580832d234abc59d3ecc7c6f57
+      internalID: 143835556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_32
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1856
+        width: 1392
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc738e060d42e543a67769c07f1f3db
+      internalID: 952809693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_33
+      rect:
+        serializedVersion: 2
+        x: 3158
+        y: 1859
+        width: 1344
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95130130b50ab74a984c1aa48069c77
+      internalID: 1978581348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_35
+      rect:
+        serializedVersion: 2
+        x: 4591
+        y: 1802
+        width: 1351
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51df34fd3ba33e340a10babd92922bd3
+      internalID: -910601349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_36
+      rect:
+        serializedVersion: 2
+        x: 6041
+        y: 1736
+        width: 1380
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0383df54724394c94978522085df23
+      internalID: -2074100769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_37
+      rect:
+        serializedVersion: 2
+        x: 7512
+        y: 1632
+        width: 1379
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a7edef4ce0a2438af0397820e505c
+      internalID: -629125271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_38
+      rect:
+        serializedVersion: 2
+        x: 9030
+        y: 1632
+        width: 1309
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505f9e664137b4e41998abdd26a6c006
+      internalID: -1523952734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_39
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 345
+        width: 1126
+        height: 1300
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c733300fd9bfd847bb58f10fede0268
+      internalID: -2100997533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morana_bet qual_40
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 307
+        width: 1129
+        height: 1300
+      alignment: 9
+      pivot: {x: 0.49928227, y: 0.9750585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93784f4df6b2ac4e99ff2307e1a7823
+      internalID: 1267004032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      morana_bet qual_0: -928231258
+      morana_bet qual_1: 1452452335
+      morana_bet qual_10: 1814482263
+      morana_bet qual_11: 1675004338
+      morana_bet qual_12: -252119218
+      morana_bet qual_13: 1502271211
+      morana_bet qual_14: -551753978
+      morana_bet qual_15: 833933073
+      morana_bet qual_16: -249301721
+      morana_bet qual_17: -417853785
+      morana_bet qual_18: -192967667
+      morana_bet qual_19: -1119611838
+      morana_bet qual_2: -1248372417
+      morana_bet qual_20: 524527993
+      morana_bet qual_21: -2012396712
+      morana_bet qual_22: -1493405391
+      morana_bet qual_23: 1040066262
+      morana_bet qual_24: -973900559
+      morana_bet qual_25: 1963462041
+      morana_bet qual_26: 657589296
+      morana_bet qual_27: 524145147
+      morana_bet qual_28: 2088147575
+      morana_bet qual_29: 1684704715
+      morana_bet qual_3: -1192493695
+      morana_bet qual_30: 1540022695
+      morana_bet qual_31: 143835556
+      morana_bet qual_32: 952809693
+      morana_bet qual_33: 1978581348
+      morana_bet qual_34: 1739092423
+      morana_bet qual_35: -910601349
+      morana_bet qual_36: -2074100769
+      morana_bet qual_37: -629125271
+      morana_bet qual_38: -1523952734
+      morana_bet qual_39: -2100997533
+      morana_bet qual_4: 63233934
+      morana_bet qual_40: 1267004032
+      morana_bet qual_41: -1978034510
+      morana_bet qual_42: -1745318534
+      morana_bet qual_43: 393243463
+      morana_bet qual_5: 1267142108
+      morana_bet qual_6: 646697451
+      morana_bet qual_7: 1644256820
+      morana_bet qual_8: -484410889
+      morana_bet qual_9: 775422391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

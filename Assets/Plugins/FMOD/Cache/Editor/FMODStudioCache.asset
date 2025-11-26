@@ -35,8 +35,32 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638995057055251499
+  lastModified: 638997574987957472
   FileSizes: []
+  Exists: 1
+--- !u!114 &-1454148866689226660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Monster/Music2Starts
+  m_EditorClassIdentifier: 
+  Name: Music2Starts
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 412951163
+    data2: 4239417947
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -62,7 +86,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 7851305446945796674}
   cacheVersion: 131857
-  cacheTime: 638995078577006311
+  cacheTime: 638997575403246721
   SerializableEventsDict:
   - key: event:/Music/Monster
     index: 0
@@ -81,8 +105,32 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/Level1.bank
   Name: Level1
   StudioPath: bank:/Level1
-  lastModified: 638995078577006311
+  lastModified: 638997575403246721
   FileSizes: []
+  Exists: 1
+--- !u!114 &5297656452371058130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Monster/MusicDown
+  m_EditorClassIdentifier: 
+  Name: MusicDown
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 704597843
+    data2: 796505543
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &5528925821871101539
 MonoBehaviour:
@@ -109,9 +157,11 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 7533789463366985940}
+  - {fileID: 5297656452371058130}
+  - {fileID: -1454148866689226660}
   MinDistance: 1
   MaxDistance: 20
-  Length: 100780
+  Length: 130330
 --- !u!114 &7533789463366985940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,10 +201,10 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638995057055966161
+  lastModified: 638997574987967433
   FileSizes:
   - Name: 
-    Value: 870
+    Value: 972
   Exists: 1
 --- !u!114 &9104846637225471786
 MonoBehaviour:

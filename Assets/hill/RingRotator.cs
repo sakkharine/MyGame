@@ -2,34 +2,63 @@
 
 public class RingRotator : MonoBehaviour
 {
+    [Header("Rotation Settings")]
     public float rotationSpeed = 100f;
-    private bool isRotating = false;
-    
-    public bool IsRotating => isRotating; // 👈 публичное свойство для проверки
+    public float autoAlignSpeed = 250f;
 
-    public void StartRotation()
-    {
-        isRotating = true;
-    }
+    public bool IsRotating { get; private set; } = false;
+    public bool AutoAligning = false;
 
-    public void StopRotation()
-    {
-        isRotating = false;
-    }
+    [Header("Animator")]
+    public Animator anim;
+
+    [Header("Target for Auto Align")]
+    public float targetAngle = 0f; 
+
+    public void StartRotation() => IsRotating = true;
+    public void StopRotation() => IsRotating = false;
 
     void Update()
     {
-        if (isRotating)
+        if (IsRotating)
         {
-            Debug.Log("ROtating");
             transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);
+        }
+        else if (AutoAligning)
+        {
+            AutoAlignToTarget();
         }
     }
 
-    public bool IsInCorrectPosition(float targetAngle, float tolerance = 11f)
+    private void AutoAlignToTarget()
     {
         float currentZ = transform.localEulerAngles.z;
-        float diff = Mathf.Abs(Mathf.DeltaAngle(currentZ, targetAngle));
+        float angle = Mathf.DeltaAngle(currentZ, targetAngle);
+
+        if (Mathf.Abs(angle) < 0.8f)
+        {
+            transform.localEulerAngles = new Vector3(0, 0, targetAngle);
+            AutoAligning = false;
+            Debug.Log(name + " докрутился до " + targetAngle + "°");
+            return;
+        }
+
+        float step = Mathf.Sign(angle) * autoAlignSpeed * Time.deltaTime;
+        transform.Rotate(0, 0, step);
+    }
+
+    public bool IsInCorrectPosition(float target, float tolerance = 11f)
+    {
+        float currentZ = transform.localEulerAngles.z;
+        float diff = Mathf.Abs(Mathf.DeltaAngle(currentZ, target));
         return diff <= tolerance;
+    }
+
+    public void StartRingAnimation()
+    {
+        if (anim != null)
+        {
+            anim.SetTrigger("StartRing");
+        }
     }
 }

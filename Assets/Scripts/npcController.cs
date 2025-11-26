@@ -43,8 +43,7 @@ public class NpcController : MonoBehaviour
         {
             if (!isReacting)
             {
-                music.SetDrums(true);
-                // Запускаем реакцию с задержкой (например, 0.5 сек)
+              
                 Invoke(nameof(StartReaction), reactionDelay);
             }
             else

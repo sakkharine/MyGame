@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playButton: {fileID: 691173953}
-  firstSceneName: baba house
+  firstSceneName: SampleScene
 --- !u!1 &1115865140
 GameObject:
   m_ObjectHideFlags: 0

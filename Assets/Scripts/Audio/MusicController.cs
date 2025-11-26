@@ -1,27 +1,48 @@
-using UnityEngine;
+п»їusing UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
 
 public class MusicController : MonoBehaviour
 {
+    private static MusicController instance;
     private EventInstance musicInstance;
+    private static bool isInitialized = false; // static, С‡С‚РѕР±С‹ СЃРѕС…СЂР°РЅСЏР»РѕСЃСЊ РјРµР¶РґСѓ СЃС†РµРЅР°РјРё
+
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
-        // берём ссылку из FMODEvents (заполненной в инспекторе)
-        musicInstance = RuntimeManager.CreateInstance(FMODEvents.instance.music);
-        musicInstance.start();
+        if (!isInitialized)
+        {
+            musicInstance = RuntimeManager.CreateInstance(FMODEvents.instance.music);
+            musicInstance.start();
+            isInitialized = true;
+
+            Debug.Log("[MusicController] Music started and will persist across scenes");
+        }
+        else
+        {
+            Debug.Log("[MusicController] Already initialized, not starting music again");
+        }
     }
 
-    public void SetDrums(bool on)
+    public void SetParameter(string name, float value)
     {
-        musicInstance.setParameterByName("Drums", on ? 1f : 0f);
+        musicInstance.setParameterByName(name, value);
     }
 
-    private void OnDestroy()
+    public EventInstance GetMusicInstance()
     {
-        musicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-        musicInstance.release();
+        return musicInstance;
     }
-
 }
