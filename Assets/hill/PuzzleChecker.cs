@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class PuzzleChecker : MonoBehaviour
 {
@@ -14,24 +15,25 @@ public class PuzzleChecker : MonoBehaviour
     public float tolerance = 25f;
 
     [Header("Second Object")]
-    public Animator secondObjectAnimator; // ссылка на Animator второго объекта
-    public string secondObjectTrigger = "StartSecondAnim"; // триггер второй анимации
+    public Animator secondObjectAnimator;
+    public string secondObjectTrigger = "StartSecondAnim";
+
+    [Header("Particle Object & Delay")]
+    public ParticleSystem thirdObjectParticles;   // ParticleSystem вместо Animator
+    public float delayBeforeThird = 1.0f;          // задержка перед включением партиклов
 
     private bool puzzleSolved = false;
     private bool alignPhase = false;
     private bool firstAnimationStarted = false;
     private bool secondAnimationStarted = false;
+    private bool thirdAnimationStarted = false;
 
     void Update()
     {
         if (!puzzleSolved)
-        {
             CheckPuzzleSolved();
-        }
         else if (alignPhase)
-        {
             CheckAlignCompleted();
-        }
     }
 
     private void CheckPuzzleSolved()
@@ -71,7 +73,7 @@ public class PuzzleChecker : MonoBehaviour
         }
     }
 
-    // Этот метод вызывается через Animation Event в конце первой анимации кольца
+    // Animation Event после первой анимации кольца
     public void FirstAnimationFinished()
     {
         if (!secondAnimationStarted && secondObjectAnimator != null)
@@ -79,5 +81,25 @@ public class PuzzleChecker : MonoBehaviour
             secondAnimationStarted = true;
             secondObjectAnimator.SetTrigger(secondObjectTrigger);
         }
+    }
+
+    // Animation Event после второй анимации второго объекта
+    public void SecondAnimationFinished()
+    {
+        if (!thirdAnimationStarted)
+        {
+            thirdAnimationStarted = true;
+
+            if (thirdObjectParticles != null)
+            {
+                StartCoroutine(PlayThirdParticlesWithDelay());
+            }
+        }
+    }
+
+    private IEnumerator PlayThirdParticlesWithDelay()
+    {
+        yield return new WaitForSeconds(delayBeforeThird);
+        thirdObjectParticles.Play(); // включаем партиклы через код
     }
 }

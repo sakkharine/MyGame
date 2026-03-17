@@ -26,7 +26,7 @@ public class characterController : MonoBehaviour
 
     private bool facingRight = true;
     private bool grounded = false;
-    private bool hasFlyAbility = false;
+    [SerializeField] private bool hasFlyAbility = false;
     private bool canFly = false;
     private bool isJumping = false;
     private Coroutine flightCoroutine;

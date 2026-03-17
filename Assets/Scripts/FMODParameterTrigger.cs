@@ -15,21 +15,27 @@ public class FMODParameterTrigger : MonoBehaviour
 
     void Start()
     {
-        music = FindObjectOfType<MusicController>();
+        music = MusicController.Instance;  
 
         if (music == null)
         {
-            Debug.LogError("[FMODParameterTrigger] MusicController not found!");
+            Debug.LogError("[FMODParameterTrigger] ERROR: MusicController INSTANCE is NULL!");
         }
         else
         {
-            Debug.Log("[FMODParameterTrigger] MusicController assigned");
+            Debug.Log("[FMODParameterTrigger] MusicController assigned via Singleton");
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
+
+        if (music == null)
+        {
+            Debug.LogError("[FMODParameterTrigger] Cannot set parameter — music == NULL");
+            return;
+        }
 
         Debug.Log("[FMODParameterTrigger] Triggered → " + parameterName + " = " + value);
 
@@ -49,8 +55,6 @@ public class FMODParameterTrigger : MonoBehaviour
         isFading = true;
 
         float startValue = 0f;
-
-        // считываем текущее значение параметра
         music.GetMusicInstance().getParameterByName(parameterName, out startValue);
 
         float timer = 0f;
@@ -58,8 +62,8 @@ public class FMODParameterTrigger : MonoBehaviour
         while (timer < fadeTime)
         {
             timer += Time.deltaTime;
-            float lerpValue = Mathf.Lerp(startValue, value, timer / fadeTime);
 
+            float lerpValue = Mathf.Lerp(startValue, value, timer / fadeTime);
             music.SetParameter(parameterName, lerpValue);
 
             yield return null;

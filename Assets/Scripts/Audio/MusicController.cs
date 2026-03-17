@@ -5,8 +5,10 @@ using FMOD.Studio;
 public class MusicController : MonoBehaviour
 {
     private static MusicController instance;
+    public static MusicController Instance => instance;  
+
     private EventInstance musicInstance;
-    private static bool isInitialized = false; // static, чтобы сохранялось между сценами
+    private static bool isInitialized = false;
 
     private void Awake()
     {
@@ -28,17 +30,18 @@ public class MusicController : MonoBehaviour
             musicInstance.start();
             isInitialized = true;
 
-            Debug.Log("[MusicController] Music started and will persist across scenes");
+            Debug.Log("[MusicController] Music STARTED (Singleton, persistent)");
         }
         else
         {
-            Debug.Log("[MusicController] Already initialized, not starting music again");
+            Debug.Log("[MusicController] Already initialized — NOT restarting music");
         }
     }
 
     public void SetParameter(string name, float value)
     {
         musicInstance.setParameterByName(name, value);
+        Debug.Log("[MusicController] PARAM → " + name + " = " + value);
     }
 
     public EventInstance GetMusicInstance()
