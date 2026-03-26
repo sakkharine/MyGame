@@ -1,0 +1,765 @@
+fileFormatVersion: 2
+guid: a49aaa2b36af274418fd0f16f3711456
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: los full11_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8511.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57982e0f32a19a94bba0fa337c76bb84
+      internalID: 502556186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_1
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 8511.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e19fef6def68a44b5f6d2ab2122784
+      internalID: 198394214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_2
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 8511.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a492757238c58eb4faac3d8eb5bffb63
+      internalID: -44877919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_3
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 8511.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc518d285cbb64fa6045da36206167
+      internalID: -134339410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_4
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 8511.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.49, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08176fc5fc0ab734aa4cf79f58490cdc
+      internalID: -24439792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_5
+      rect:
+        serializedVersion: 2
+        x: 7744
+        y: 8511
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61df41e9ef484d49977419b42e6fe83
+      internalID: -1865477375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 6391
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec43bd8998c9e0742a0857b25afa744c
+      internalID: 2136442296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_7
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 6386
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b33d0acffe09fe469f1a6b4d6912f07
+      internalID: -1911936783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_8
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 6384.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad63b8ec961ebc449993e48de13a0f2
+      internalID: 765045693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_9
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 6384.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34803f57d711cf74e876b06b79c20243
+      internalID: 689727803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_10
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 6384.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed2fa2097ddb7d4e9a2c4da0bff0aae
+      internalID: 1097663919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_11
+      rect:
+        serializedVersion: 2
+        x: 7744
+        y: 6384
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81e883df9592044fbc9bb53cd4dbdbb
+      internalID: -1505048366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4257.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dceb6e70173b74489c73f123e8c3d5
+      internalID: 1011952737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_13
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 4257.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d656cd97b0a984b8bc90732e01f5dd
+      internalID: -318478787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_14
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 4257.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de2abc95308c16428299388fc2af5ef
+      internalID: -1305664649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_15
+      rect:
+        serializedVersion: 2
+        x: 4650
+        y: 4263
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.518, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074428f5fb7c669489339aaced3ed18a
+      internalID: -2087439807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_16
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 4257.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.516, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d5c1090ecaeb141aa2e4f3b00fe8c3
+      internalID: -682952475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_17
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 4257.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.512, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3fa23dccbc09946ad3a433d92717fb
+      internalID: -2050307773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2130.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8548f78836ecf5a47b83be33f39ebd44
+      internalID: 431626615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_19
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 2138
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.43513802, y: 0.529442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15d77a54b04d0c4c85f7090708f5b6b
+      internalID: 1925282854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_20
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 2134
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.42253965, y: 0.53490406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240c1bd3a91907449e25d33d50f2430
+      internalID: 684471300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_21
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 2133
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.502, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdc158f71a763a4d895380f8b181bd4
+      internalID: 1887062117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_22
+      rect:
+        serializedVersion: 2
+        x: 6197
+        y: 2133
+        width: 1549
+        height: 2128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da56a270b0882cc4da7f3648b28461e9
+      internalID: -1818319072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_23
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 2130.2
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.49564523, y: 0.5015848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572c5ba3453a8e940bd83dcf48e8901a
+      internalID: -828943719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.1999512
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.4791548, y: 0.5026117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bba4b50efd2e944a568619a0ec7c88
+      internalID: -823706162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_25
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 3
+        width: 1549
+        height: 2128
+      alignment: 9
+      pivot: {x: 0.4725029, y: 0.5014345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c05b77dce788724b8dff201a7daef62
+      internalID: 847566714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_26
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 3.1999512
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.47612876, y: 0.50007945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65512b4ff131f2f49a87945b10490b0e
+      internalID: -1431224299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_27
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 3.1999512
+        width: 1548.8334
+        height: 2127.8
+      alignment: 9
+      pivot: {x: 0.4853297, y: 0.49862206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4b08c22ede8924ba526e88da1c25a6
+      internalID: -601591357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: los full11_28
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 3.1999512
+        width: 1548.8334
+        height: 2127.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f334e774c5498c647b7743e23c0d6b89
+      internalID: 1141875911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      los full11_0: 502556186
+      los full11_1: 198394214
+      los full11_10: 1097663919
+      los full11_11: -1505048366
+      los full11_12: 1011952737
+      los full11_13: -318478787
+      los full11_14: -1305664649
+      los full11_15: -2087439807
+      los full11_16: -682952475
+      los full11_17: -2050307773
+      los full11_18: 431626615
+      los full11_19: 1925282854
+      los full11_2: -44877919
+      los full11_20: 684471300
+      los full11_21: 1887062117
+      los full11_22: -1818319072
+      los full11_23: -828943719
+      los full11_24: -823706162
+      los full11_25: 847566714
+      los full11_26: -1431224299
+      los full11_27: -601591357
+      los full11_28: 1141875911
+      los full11_3: -134339410
+      los full11_4: -24439792
+      los full11_5: -1865477375
+      los full11_6: 2136442296
+      los full11_7: -1911936783
+      los full11_8: 765045693
+      los full11_9: 689727803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
