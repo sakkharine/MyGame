@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,8 +24,10 @@ public class characterController : MonoBehaviour
     [SerializeField] private Animator anim;
     private Rigidbody2D rb2d;
     private Collider2D col;
-
-    private bool facingRight = true;
+    
+    public Vector3 FaceDirection => facingRight ? Vector3.right : Vector3.left;
+    
+    public bool facingRight = true;
     private bool grounded = false;
     [SerializeField] private bool hasFlyAbility = false;
     private bool canFly = false;
@@ -144,13 +147,20 @@ public class characterController : MonoBehaviour
         flightCoroutine = null;
     }
 
+    private States _state;
     private States State
     {
-        get { return (States)anim.GetInteger(STATE_PARAM); }
+        get => _state;
         set
         {
-            if ((int)value != anim.GetInteger(STATE_PARAM))
-                anim.SetInteger(STATE_PARAM, (int)value);
+            if (value != _state)
+            {
+                if (anim != null)
+                {
+                    anim.SetInteger(STATE_PARAM, (int)value);
+                }
+                _state = value;
+            }
         }
     }
 
@@ -161,18 +171,21 @@ public class characterController : MonoBehaviour
 
     void TriggerJumpAnimation()
     {
-        if (anim == null) return;
-        anim.SetTrigger(JUMP_TRIGGER);
+        if (anim != null)
+        {
+            anim.SetTrigger(JUMP_TRIGGER);
+        };
         State = States.girl_jump;
     }
 
     void UpdateAnimatorParameters()
     {
-        if (anim == null) return;
-
-        anim.SetBool(GROUNDED_PARAM, grounded);
-        anim.SetFloat(X_SPEED_PARAM, Mathf.Abs(rb2d.velocity.x));
-        anim.SetFloat(Y_SPEED_PARAM, rb2d.velocity.y);
+        if (anim != null)
+        {
+            anim.SetBool(GROUNDED_PARAM, grounded);
+            anim.SetFloat(X_SPEED_PARAM, Mathf.Abs(rb2d.velocity.x));
+            anim.SetFloat(Y_SPEED_PARAM, rb2d.velocity.y);
+        }
 
         float hspeed = Mathf.Abs(rb2d.velocity.x);
         if (isJumping || !grounded)
@@ -195,10 +208,21 @@ public class characterController : MonoBehaviour
         canFly = true;
     }
 
+    public void Stop()
+    {
+        rb2d.velocity = Vector2.zero;
+        UpdateAnimatorParameters();
+    }
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name == "dieCollider" || col.gameObject.name == "foxi")
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void OnDisable()
+    {
+        UpdateAnimatorParameters();
     }
 }
 

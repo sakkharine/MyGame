@@ -3,16 +3,16 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class CameraFollowScript : MonoBehaviour
 {
-    [Header("Основные настройки")]
+    [Header("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ")]
     [SerializeField] private Transform _objectToFollow;
     [SerializeField] private Vector2 _offset = Vector2.zero;
     [SerializeField] private float _smoothTime = 0.3f;
 
-    [Header("Оси движения камеры")]
+    [Header("пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")]
     [SerializeField] private bool _followX = true;
     [SerializeField] private bool _followY = true;
 
-    [Header("Ограничение для камеры")]
+    [Header("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ")]
     [SerializeField] private Vector2 _center = Vector2.zero;
     [SerializeField] private Vector2 _size = Vector2.one;
 
@@ -29,6 +29,11 @@ public class CameraFollowScript : MonoBehaviour
         UpdateZoneRect();
     }
 
+    public void SetObjectToFollow(Transform target)
+    {
+        _objectToFollow = target;
+    }
+    
     private void UpdateZoneRect()
     {
         float height = _camera.orthographicSize * 2f;

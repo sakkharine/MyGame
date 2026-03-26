@@ -1,46 +1,30 @@
+using System;
 using UnityEngine;
 
 public class NPCMover2D : MonoBehaviour
 {
-    public enum MoveMode
-    {
-        Distance,
-        Time
-    }
-
     [Header("Movement Settings")]
     public float speed = 2f;
-    public MoveMode moveMode = MoveMode.Distance;
-
-    [Header("Distance Mode")]
-    public float moveDistance = 5f;
-
-    [Header("Time Mode")]
-    public float moveTime = 3f;
-
-    [Header("Direction")]
-    public Vector2 direction = Vector2.right;
-
-    [Header("Sprite Settings")]
-    public bool facingRightInitially = true;
-
-    private Vector2 startPosition;
-    private float timer;
-    private bool isMoving = true;
-
+    public float stoppingDistance = 0.1f;
+    public bool facingRightInitially;
+    
+    [SerializeField] private Transform targetPosition;
+    private Transform targetTransform;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
-
+    private bool isMoving = true;
+    private Vector3 direction;
+    
     void Start()
     {
-        startPosition = transform.position;
-
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
-        direction.Normalize();
-
-        UpdateSpriteDirection();
+    public void GoTo(Transform target)
+    {
+        targetTransform = target;
+        isMoving = true;
     }
 
     void Update()
@@ -56,26 +40,24 @@ public class NPCMover2D : MonoBehaviour
 
     void Move()
     {
+        if (targetTransform == null)
+        {
+            direction = (targetPosition.position - transform.position).normalized;
+        }
+        else
+        {
+            direction = (targetTransform.position - transform.position).normalized;
+        }
+
+        direction.y = direction.z = 0;
         transform.Translate(direction * speed * Time.deltaTime);
-        timer += Time.deltaTime;
     }
 
     void CheckStopCondition()
     {
-        if (moveMode == MoveMode.Distance)
+        if (Mathf.Abs(transform.position.x - targetPosition.position.x) < stoppingDistance)
         {
-            float distance = Vector2.Distance(startPosition, transform.position);
-            if (distance >= moveDistance)
-            {
-                StopMoving();
-            }
-        }
-        else
-        {
-            if (timer >= moveTime)
-            {
-                StopMoving();
-            }
+            StopMoving();
         }
     }
 
@@ -106,5 +88,10 @@ public class NPCMover2D : MonoBehaviour
         {
             spriteRenderer.flipX = facingRightInitially;
         }
+    }
+
+    private void OnDisable()
+    {
+        StopMoving();
     }
 }
