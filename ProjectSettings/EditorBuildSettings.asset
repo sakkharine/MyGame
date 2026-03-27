@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/hill.unity
     guid: 106d4b7a97b4a754f87345d84c30f515
   - enabled: 1
+    path: Assets/Scenes/zima2.unity
+    guid: f14f3e4c73b41744aa9d15bc76c347dc
+  - enabled: 1
     path: Assets/Scenes/hill_alt.unity
     guid: 332a1b748bf4b6041a0dc1827908925f
+  - enabled: 1
+    path: Assets/Scenes/zima1.unity
+    guid: 6df245e9d0052774ea35d43ce0faf04a
   m_configObjects: {}
