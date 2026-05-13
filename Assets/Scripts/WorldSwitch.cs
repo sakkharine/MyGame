@@ -1,5 +1,5 @@
+using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +14,11 @@ public class WorldSwitch : MonoBehaviour
     private void Awake()
     {
         StartCoroutine(WaitCooldown());
+    }
+
+    private void Start()
+    {
+        MobileInput.Instance.CanSwitchWorld = true;
     }
 
     private void OnDestroy()
@@ -33,6 +38,8 @@ public class WorldSwitch : MonoBehaviour
         {
             SwitchWorld();
         }
+        
+        if (MobileInput.Instance.SwitchWorldDown) SwitchWorld();
     }
 
     public void SwitchWorld()

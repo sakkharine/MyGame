@@ -799,6 +799,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snow
       objectReference: {fileID: 0}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1391736907}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.Behaviour, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012095831316789563, guid: 0ba449793f23d3e49abbbd83ea5782ef, type: 3}
+      propertyPath: OnFinishInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7231,6 +7263,18 @@ MonoBehaviour:
           m_StringArgument: Burn
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1391736907}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Burn
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &1391736907
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7238,7 +7282,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391736901}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:

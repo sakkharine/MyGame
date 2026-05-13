@@ -1,4 +1,3 @@
-﻿using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -69,6 +68,10 @@ public class characterController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         if (Input.GetKey(KeyCode.Escape))
             Application.Quit();
+        
+        inputHorizontal += MobileInput.Instance.Horizontal;
+        
+        if (MobileInput.Instance.JumpDown) inputJumpDown = true;
     }
 
     void FixedUpdate()
