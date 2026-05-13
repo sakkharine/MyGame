@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SwitchHumanAndBird : MonoBehaviour
@@ -10,21 +8,25 @@ public class SwitchHumanAndBird : MonoBehaviour
 
     private bool isHuman = true;
 
+    private void Start()
+    {
+        MobileInput.Instance.CanSwitchForm = true;
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (!MobileInput.Instance.SwitchFormDown && !Input.GetKeyDown(KeyCode.G)) return;
+
+        isHuman = !isHuman;
+        if (isHuman)
         {
-            isHuman = !isHuman;
-            if (isHuman)
-            {
-                animator.SetTrigger("Human");
-                characterControllerObject.enabled = true;
-                flyingObject.enabled = false;
-            }
-            else
-            {
-                Prev();
-            }
+            animator.SetTrigger("Human");
+            characterControllerObject.enabled = true;
+            flyingObject.enabled = false;
+        }
+        else
+        {
+            Prev();
         }
     }
 

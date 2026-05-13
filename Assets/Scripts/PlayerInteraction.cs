@@ -21,6 +21,8 @@ public class PlayerInteraction : MonoBehaviour
 
     private void HandleInteraction()
     {
+        MobileInput.Instance.CanInteract = CheckForInteractable();
+        
         if (Input.GetKeyDown(interactionKey))
         {
             TryStartInteraction();
@@ -29,8 +31,29 @@ public class PlayerInteraction : MonoBehaviour
         {
             CancelInteraction();
         }
+        
+        if (MobileInput.Instance.IsInteracting) TryStartInteraction();
+        else CancelInteraction();
     }
 
+    private bool CheckForInteractable()
+    {
+        Vector2 boxCenter = transform.position + characterController.FaceDirection * interactionIndent;
+        Vector2 boxSize = new Vector2(interactionWidth, interactionHeight);
+        
+        Collider2D[] hitColliders = Physics2D.OverlapBoxAll(boxCenter, boxSize, 0f, interactableLayer);
+
+        foreach (Collider2D collider in hitColliders)
+        {
+            Interactable interactable = collider.GetComponent<Interactable>();
+            if (interactable != null)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    
     private void TryStartInteraction()
     {
         if (IsInteracting) return;
