@@ -13,9 +13,13 @@ public class MobileInput : MonoBehaviour
     [Header("Actions")]
     [SerializeField] private HoldButton interactButton;
     [SerializeField] private Button jumpButton;
+    [SerializeField] private HoldButton jumpHold;
     [SerializeField] private Button switchWorldButton;
     [SerializeField] private Button switchFormButton;
 
+    [Header("Images")]
+    [SerializeField] private ButtonImageSwap birdSwapImage;
+    
     public float Horizontal
     {
         get
@@ -44,6 +48,7 @@ public class MobileInput : MonoBehaviour
     }
     
     public bool JumpDown { get; private set; }
+    public bool JumpHold => jumpHold.IsHeld;
     public bool SwitchWorldDown { get; private set; }
     public bool SwitchFormDown { get; private set; }
     
@@ -61,5 +66,10 @@ public class MobileInput : MonoBehaviour
         JumpDown = false;
         SwitchWorldDown = false;
         SwitchFormDown = false;
+    }
+
+    public void SwapBirdImage()
+    {
+        birdSwapImage.Swap();
     }
 }

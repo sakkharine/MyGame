@@ -44,7 +44,6 @@ public class Flying : MonoBehaviour
     private const string GROUNDED_PARAM = "isGrounded";
 
     float inputHorizontal = 0f;
-    bool inputJumpDown = false;
     bool inputJumpHold = false;
 
     void Awake()
@@ -57,6 +56,11 @@ public class Flying : MonoBehaviour
         rb2d.drag = groundDrag;
     }
 
+    private void OnEnable()
+    {
+        facingRight = transform.localScale.x > 0f; 
+    }
+    
     void Update()
     {
         HandleInput();
@@ -66,19 +70,13 @@ public class Flying : MonoBehaviour
     {
         inputHorizontal = Input.GetAxis("Horizontal");
 
-        inputJumpDown = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
         inputJumpHold = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
 
         if (Input.GetKey(KeyCode.Escape))
             Application.Quit();
 
         inputHorizontal += MobileInput.Instance.Horizontal;
-
-        if (MobileInput.Instance.JumpDown)
-        {
-            inputJumpDown = true;
-            inputJumpHold = true;
-        }
+        inputJumpHold |= MobileInput.Instance.JumpHold;
     }
 
     void FixedUpdate()
@@ -146,7 +144,7 @@ public class Flying : MonoBehaviour
     {
         facingRight = !facingRight;
         Vector3 s = transform.localScale;
-        s.x *= -1;
+        s.x *= -1f;
         transform.localScale = s;
     }
 }

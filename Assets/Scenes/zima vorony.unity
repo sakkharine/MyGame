@@ -407,13 +407,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1febff672eb63245ac519270871e414, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectToFollow: {fileID: 0}
+  _objectToFollow: {fileID: 2139503624}
   _offset: {x: 0, y: 0}
   _smoothTime: 0.3
   _followX: 1
   _followY: 0
-  _center: {x: -61.2, y: 0}
-  _size: {x: 45, y: 14.12}
+  _center: {x: -50, y: 0}
+  _size: {x: 93.9, y: 23.4}
   _showGizmos: 1
 --- !u!95 &519420034
 Animator:
@@ -772,7 +772,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2139503614}
         m_TargetAssemblyTypeName: SwitchHumanAndBird, Assembly-CSharp
-        m_MethodName: Prev
+        m_MethodName: TurnToBird
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6213,6 +6213,7 @@ MonoBehaviour:
   animator: {fileID: 2079534267}
   characterControllerObject: {fileID: 2139503620}
   flyingObject: {fileID: 2139503615}
+  camera: {fileID: 519420033}
 --- !u!114 &2139503615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6251,6 +6252,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c36b3fa31de86c4449ca9a639127330b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &2139503624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 739359666775686776, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
+  m_PrefabInstance: {fileID: 2139503612}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

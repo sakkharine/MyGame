@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -52,6 +53,11 @@ public class characterController : MonoBehaviour
 
         rb2d.freezeRotation = true;
         rb2d.drag = groundDrag;
+    }
+
+    private void OnEnable()
+    {
+        facingRight = transform.localScale.x > 0f; 
     }
 
     void Update()
@@ -207,7 +213,7 @@ public class characterController : MonoBehaviour
     {
         facingRight = !facingRight;
         Vector3 s = transform.localScale;
-        s.x *= -1;
+        s.x *= -1f;
         transform.localScale = s;
     }
 

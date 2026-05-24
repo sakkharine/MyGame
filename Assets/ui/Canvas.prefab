@@ -720,7 +720,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3639849671722808257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: bb9ac9cbf9e71c54f9dcbd7d0f8fb567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -1155,8 +1155,10 @@ MonoBehaviour:
   rightButton: {fileID: 5086973577322018405}
   interactButton: {fileID: 9222392769011406950}
   jumpButton: {fileID: 4902616551320779362}
+  jumpHold: {fileID: 4902616551320779362}
   switchWorldButton: {fileID: 9098657612924247575}
   switchFormButton: {fileID: 1118590652778202707}
+  birdSwapImage: {fileID: 3423351419548652802}
 --- !u!1 &7176896049223135401
 GameObject:
   m_ObjectHideFlags: 0
