@@ -57,10 +57,11 @@ MonoBehaviour:
   flyingForce: 50
   flyingTime: 1
   groundCheck: {fileID: 6689827283171591950}
-  groundRadius: 0.15
+  groundRadius: 1.98
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1
+  stopCheckAfterJumpTime: 0.1
   anim: {fileID: 6045499386454848665}
   canMoveX: 1
   hasFlyAbility: 0
@@ -172,7 +173,7 @@ Transform:
   m_GameObject: {fileID: 2198390820335005210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6, z: 0}
+  m_LocalPosition: {x: -0.13, y: -4.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
