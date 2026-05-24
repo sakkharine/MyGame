@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -23,12 +24,17 @@ public class characterController : MonoBehaviour
     [SerializeField] private Animator anim;
     private Rigidbody2D rb2d;
     private Collider2D col;
+
+    [Header("Limits")] 
+    [SerializeField] public bool canMoveX = true;
+    [SerializeField] private bool hasFlyAbility = false;
+    
+    [Space]
+    public bool facingRight = true;
     
     public Vector3 FaceDirection => facingRight ? Vector3.right : Vector3.left;
     
-    public bool facingRight = true;
     private bool grounded = false;
-    [SerializeField] private bool hasFlyAbility = false;
     private bool canFly = false;
     private bool isJumping = false;
     private Coroutine flightCoroutine;
@@ -47,6 +53,11 @@ public class characterController : MonoBehaviour
 
         rb2d.freezeRotation = true;
         rb2d.drag = groundDrag;
+    }
+
+    private void OnEnable()
+    {
+        facingRight = transform.localScale.x > 0f; 
     }
 
     void Update()
@@ -109,8 +120,8 @@ public class characterController : MonoBehaviour
                 Invoke("PlayFootstep", 0.8f);
         }
 
-
-        rb2d.velocity = new Vector2(newX, velY);
+        if(canMoveX)
+            rb2d.velocity = new Vector2(newX, velY);
 
         if (move > 0.01f && !facingRight) Flip();
         else if (move < -0.01f && facingRight) Flip();
@@ -183,14 +194,15 @@ public class characterController : MonoBehaviour
 
     void UpdateAnimatorParameters()
     {
+        float hspeed = Mathf.Abs(inputHorizontal);
+        
         if (anim != null)
         {
             anim.SetBool(GROUNDED_PARAM, grounded);
-            anim.SetFloat(X_SPEED_PARAM, Mathf.Abs(rb2d.velocity.x));
+            anim.SetFloat(X_SPEED_PARAM, hspeed);
             anim.SetFloat(Y_SPEED_PARAM, rb2d.velocity.y);
         }
 
-        float hspeed = Mathf.Abs(rb2d.velocity.x);
         if (isJumping || !grounded)
             State = States.girl_jump;
         else if (grounded)
@@ -201,7 +213,7 @@ public class characterController : MonoBehaviour
     {
         facingRight = !facingRight;
         Vector3 s = transform.localScale;
-        s.x *= -1;
+        s.x *= -1f;
         transform.localScale = s;
     }
 
@@ -211,6 +223,11 @@ public class characterController : MonoBehaviour
         canFly = true;
     }
 
+    public void SetXLimit(bool canMove)
+    {
+        canMoveX = canMove;
+    }
+    
     public void Stop()
     {
         rb2d.velocity = Vector2.zero;

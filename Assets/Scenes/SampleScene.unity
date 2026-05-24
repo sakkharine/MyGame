@@ -7715,6 +7715,13 @@ PrefabInstance:
     - target: {fileID: 4163373122407599751, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 27.25476
+    - target: {fileID: 2518868815636388153, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729766269835838786, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9109856405978255970, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_IsActive

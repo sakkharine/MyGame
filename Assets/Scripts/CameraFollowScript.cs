@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Camera))]
@@ -9,8 +10,8 @@ public class CameraFollowScript : MonoBehaviour
     [SerializeField] private float _smoothTime = 0.3f;
 
     [Header("��� �������� ������")]
-    [SerializeField] private bool _followX = true;
-    [SerializeField] private bool _followY = true;
+    [SerializeField] public bool followX = true;
+    [SerializeField] public bool followY = true;
 
     [Header("����������� ��� ������")]
     [SerializeField] private Vector2 _center = Vector2.zero;
@@ -23,10 +24,38 @@ public class CameraFollowScript : MonoBehaviour
     private Rect _cameraZone;
     private Camera _camera;
 
+    private Coroutine _zoomCoroutine;
+    
     private void Awake()
     {
         _camera = GetComponent<Camera>();
         UpdateZoneRect();
+    }
+
+    public void Zoom(float targetSize, float duration)
+    {
+        if(_zoomCoroutine != null)
+            StopCoroutine(_zoomCoroutine);
+
+        _zoomCoroutine = StartCoroutine(ZoomCoroutine(targetSize, duration));
+    }
+
+    private IEnumerator ZoomCoroutine(float targetSize, float duration)
+    {
+        float elapsedTime = 0f;
+        float startSize = _camera.orthographicSize;
+        
+        while(elapsedTime <= duration)
+        {
+            elapsedTime += Time.deltaTime;
+            _camera.orthographicSize = Mathf.Lerp(startSize, targetSize, elapsedTime / duration);
+
+            yield return null;
+        }
+        
+        UpdateZoneRect();
+        
+        _zoomCoroutine = null;
     }
 
     public void SetObjectToFollow(Transform target)
@@ -67,12 +96,12 @@ public class CameraFollowScript : MonoBehaviour
 
         Vector3 newTarget = transform.position;
 
-        if (_followX)
+        if (followX)
         {
             newTarget.x = Mathf.Clamp(targetPosition.x, _cameraZone.xMin, _cameraZone.xMax);
         }
             
-        if (_followY)
+        if (followY)
         {
             newTarget.y = Mathf.Clamp(targetPosition.y, _cameraZone.yMin, _cameraZone.yMax);
         }
