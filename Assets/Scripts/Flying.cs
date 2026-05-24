@@ -71,6 +71,14 @@ public class Flying : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Escape))
             Application.Quit();
+
+        inputHorizontal += MobileInput.Instance.Horizontal;
+
+        if (MobileInput.Instance.JumpDown)
+        {
+            inputJumpDown = true;
+            inputJumpHold = true;
+        }
     }
 
     void FixedUpdate()
