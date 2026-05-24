@@ -22,19 +22,22 @@ public class MusicController : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    void Start()
+    private System.Collections.IEnumerator Start()
     {
+        yield return null;
+
         if (!isInitialized)
         {
-            musicInstance = RuntimeManager.CreateInstance(FMODEvents.instance.music);
-            musicInstance.start();
-            isInitialized = true;
+            RuntimeManager.LoadBank("Master", true);
+            RuntimeManager.LoadBank("Master.strings", true);
+      
 
-            Debug.Log("[MusicController] Music STARTED (Singleton, persistent)");
-        }
-        else
-        {
-            Debug.Log("[MusicController] Already initialized — NOT restarting music");
+            musicInstance = RuntimeManager.CreateInstance("event:/Music/Monster");
+            musicInstance.start();
+            //musicInstance = RuntimeManager.CreateInstance(FMODEvents.instance.music);
+            //musicInstance.start();
+            isInitialized = true;
+            Debug.Log("[MusicController] Music STARTED");
         }
     }
 
