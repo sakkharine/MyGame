@@ -433,8 +433,8 @@ MonoBehaviour:
   _objectToFollow: {fileID: 1681765186}
   _offset: {x: 0, y: 0}
   _smoothTime: 0.3
-  _followX: 1
-  _followY: 0
+  followX: 1
+  followY: 1
   _center: {x: 0, y: 0}
   _size: {x: 80, y: 1}
   _showGizmos: 1
@@ -1864,11 +1864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 784160533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1877884592 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5775247297903433305, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
-  m_PrefabInstance: {fileID: 1466968812}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1929523349
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,6 +2143,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1970039657 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8848537184763759881, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
+  m_PrefabInstance: {fileID: 1466968812}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c36b3fa31de86c4449ca9a639127330b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2059583619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,9 +2183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ac14691d07228341b5729350b290893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 1
+  Force: 5
   Direction: {x: 1, y: 0}
-  _player: {fileID: 1877884592}
+  _player: {fileID: 1970039657}
 --- !u!4 &2059583621
 Transform:
   m_ObjectHideFlags: 0

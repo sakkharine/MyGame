@@ -34,6 +34,8 @@ public class characterController : MonoBehaviour
     
     public Vector3 FaceDirection => facingRight ? Vector3.right : Vector3.left;
     
+    public Vector2 SecondaryVelocity { get; set; }
+    
     private bool grounded = false;
     private bool canFly = false;
     private bool isJumping = false;
@@ -155,10 +157,17 @@ public class characterController : MonoBehaviour
 
             if (!grounded)
                 totalMovement.y = rb2d.velocity.y;
-                
+    
             rb2d.velocity = totalMovement;
         }
 
+        var influencedMovement = new Vector2(
+            CalculateInfluence(rb2d.velocity.x, SecondaryVelocity.x),
+            CalculateInfluence(rb2d.velocity.y, SecondaryVelocity.y)
+        );
+
+        rb2d.velocity = influencedMovement;
+        
         if (move > 0.01f && !facingRight) Flip();
         else if (move < -0.01f && facingRight) Flip();
     }
@@ -292,6 +301,21 @@ public class characterController : MonoBehaviour
         {
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(groundCheck.position, groundRadius * Mathf.Abs(transform.lossyScale.x));
+        }
+    }
+    
+    private float CalculateInfluence(float target, float influence)
+    {
+        if (target == 0f)
+            return influence;
+
+        if (Mathf.Sign(target) == Mathf.Sign(influence))
+        {
+            return Mathf.Max(target, influence);
+        }
+        else
+        {
+            return target - influence;
         }
     }
 }
