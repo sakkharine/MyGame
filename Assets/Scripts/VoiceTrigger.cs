@@ -13,6 +13,9 @@ public class VoiceTrigger : MonoBehaviour
     [SerializeField]
     private bool playOnlyOnce = true;
 
+    [SerializeField]
+    private SubtitleLine[] subtitles;
+
     private bool played = false;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -44,5 +47,27 @@ public class VoiceTrigger : MonoBehaviour
         }
 
         VoiceOverManager.Instance.PlayVoice(voiceLine);
+
+        if (subtitles != null && subtitles.Length > 0)
+            StartCoroutine(PlaySubtitles());
+    }
+
+    private IEnumerator PlaySubtitles()
+    {
+        float elapsed = 0f;
+
+        foreach (SubtitleLine line in subtitles)
+        {
+            while (elapsed < line.time)
+            {
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            SubtitleManager.Instance.SetSubtitle(line.text);
+        }
+
+        yield return new WaitForSeconds(3f);
+        SubtitleManager.Instance.ClearSubtitle();
     }
 }
