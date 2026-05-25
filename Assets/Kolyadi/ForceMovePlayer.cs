@@ -4,10 +4,26 @@ public class ForceMovePlayer : MonoBehaviour
 {
     [SerializeField] public float Force;
     [SerializeField] public Vector2 Direction;
-    [SerializeField] private Rigidbody2D _player;
-    
-    private void FixedUpdate()
+    [SerializeField] private characterController _player;
+
+    private void Update()
     {
-        _player.AddForce(_player.mass * Force * Direction);    
+        _player.SecondaryVelocity = Force * Direction;
+    }
+
+    private void OnEnable()
+    {
+        _player.SecondaryVelocity = Force * Direction;
+    }
+    
+    private void OnDisable()
+    {
+        _player.SecondaryVelocity = Vector2.zero;
+    }
+
+    private void OnValidate()
+    {
+        if(_player != null)
+            _player.SecondaryVelocity = Force * Direction;
     }
 }

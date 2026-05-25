@@ -191,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Force: 0
   Direction: {x: 1, y: 0}
-  _player: {fileID: 1877884592}
+  _player: {fileID: 1877884594}
 --- !u!1 &325601270
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,8 +421,8 @@ MonoBehaviour:
   _objectToFollow: {fileID: 1681765186}
   _offset: {x: 0, y: 0}
   _smoothTime: 0.3
-  _followX: 1
-  _followY: 0
+  followX: 1
+  followY: 1
   _center: {x: 0, y: 0}
   _size: {x: 80, y: 1}
   _showGizmos: 1
@@ -1021,11 +1021,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1877884592 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5775247297903433305, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
-  m_PrefabInstance: {fileID: 1466968812}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1877884594 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8848537184763759881, guid: 4cc77265af720bf47a8dab9205407497, type: 3}

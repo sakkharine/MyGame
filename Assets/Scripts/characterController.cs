@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,6 +18,7 @@ public class characterController : MonoBehaviour
     public Transform groundCheck;
     public float groundRadius = 0.15f;
     public LayerMask whatIsGround;
+    public float stopCheckAfterJumpTime = 0.1f;
 
     [Header("Components")]
     [SerializeField] private Animator anim;
@@ -34,9 +34,13 @@ public class characterController : MonoBehaviour
     
     public Vector3 FaceDirection => facingRight ? Vector3.right : Vector3.left;
     
+    public Vector2 SecondaryVelocity { get; set; }
+    
     private bool grounded = false;
     private bool canFly = false;
     private bool isJumping = false;
+    private float jumpTime;
+    
     private Coroutine flightCoroutine;
 
     private const string STATE_PARAM = "state";
@@ -45,6 +49,8 @@ public class characterController : MonoBehaviour
     private const string Y_SPEED_PARAM = "ySpeed";
     private const string GROUNDED_PARAM = "isGrounded";
 
+    private ContactFilter2D _contactFilter;
+    
     void Awake()
     {
         if (anim == null) anim = GetComponent<Animator>();
@@ -53,6 +59,11 @@ public class characterController : MonoBehaviour
 
         rb2d.freezeRotation = true;
         rb2d.drag = groundDrag;
+
+        _contactFilter.NoFilter();
+        _contactFilter.useTriggers = false;
+        _contactFilter.useLayerMask = true;
+        _contactFilter.layerMask = whatIsGround;
     }
 
     private void OnEnable()
@@ -88,8 +99,11 @@ public class characterController : MonoBehaviour
     void FixedUpdate()
     {
         bool wasGrounded = grounded;
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
-
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius * Mathf.Abs(transform.lossyScale.x), _contactFilter, _colliderBuffer) > 0;
+        
+        if(Time.time < jumpTime + stopCheckAfterJumpTime)
+            grounded = false;
+        
         if (!wasGrounded && grounded)
         {
             isJumping = false;
@@ -120,9 +134,40 @@ public class characterController : MonoBehaviour
                 Invoke("PlayFootstep", 0.8f);
         }
 
-        if(canMoveX)
-            rb2d.velocity = new Vector2(newX, velY);
+        if (canMoveX)
+        {
+            int size = Physics2D.CircleCastNonAlloc(groundCheck.position, groundRadius, Vector2.down, raycastHitBuffer, 1f, whatIsGround);
 
+            RaycastHit2D? hit = null;
+            for (int i = 0; i < size; i++)
+            {
+                hit = raycastHitBuffer[i];
+                if (hit.Value.collider == this.col || hit.Value.collider.isTrigger)
+                {
+                    hit = null;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            
+            Vector2 newVelocity = Vector3.Cross(hit.HasValue ? hit.Value.normal : Vector2.up, Vector3.forward) * newX;
+            Vector2 totalMovement = newVelocity;
+
+            if (!grounded)
+                totalMovement.y = rb2d.velocity.y;
+    
+            rb2d.velocity = totalMovement;
+        }
+
+        var influencedMovement = new Vector2(
+            CalculateInfluence(rb2d.velocity.x, SecondaryVelocity.x),
+            CalculateInfluence(rb2d.velocity.y, SecondaryVelocity.y)
+        );
+
+        rb2d.velocity = influencedMovement;
+        
         if (move > 0.01f && !facingRight) Flip();
         else if (move < -0.01f && facingRight) Flip();
     }
@@ -135,6 +180,7 @@ public class characterController : MonoBehaviour
             isJumping = true;
             grounded = false;
             TriggerJumpAnimation();
+            jumpTime = Time.time;
             return;
         }
 
@@ -148,7 +194,8 @@ public class characterController : MonoBehaviour
             if (flightCoroutine != null)
                 StopCoroutine(flightCoroutine);
             flightCoroutine = StartCoroutine(FlightDisableTimer(flyingTime));
-
+            jumpTime = Time.time;
+            
             return;
         }
     }
@@ -162,6 +209,9 @@ public class characterController : MonoBehaviour
     }
 
     private States _state;
+    private RaycastHit2D[] raycastHitBuffer = new RaycastHit2D[8];
+    private Collider2D[] _colliderBuffer = new Collider2D[8];
+
     private States State
     {
         get => _state;
@@ -243,6 +293,30 @@ public class characterController : MonoBehaviour
     private void OnDisable()
     {
         UpdateAnimatorParameters();
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(groundCheck.position, groundRadius * Mathf.Abs(transform.lossyScale.x));
+        }
+    }
+    
+    private float CalculateInfluence(float target, float influence)
+    {
+        if (target == 0f)
+            return influence;
+
+        if (Mathf.Sign(target) == Mathf.Sign(influence))
+        {
+            return Mathf.Max(target, influence);
+        }
+        else
+        {
+            return target - influence;
+        }
     }
 }
 
