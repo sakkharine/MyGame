@@ -21,6 +21,9 @@ public class PlayerInteraction : MonoBehaviour
 
     private void HandleInteraction()
     {
+        if(MobileInput.Instance == null)
+            return;
+        
         MobileInput.Instance.CanInteract = CheckForInteractable();
         
         if (Input.GetKeyDown(interactionKey))

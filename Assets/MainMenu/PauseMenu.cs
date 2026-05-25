@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,6 +6,8 @@ public class PauseMenu : MonoBehaviour
 {
     [SerializeField] Button continueButton;
     [SerializeField] Button exitButton;
+    [SerializeField] Toggle muteToggle;
+    [SerializeField] Toggle subtitleToggle;
     [SerializeField] GameObject menu;
 
     bool isShown = false;
@@ -18,6 +17,33 @@ public class PauseMenu : MonoBehaviour
         Hide();
         continueButton.onClick.AddListener(Hide);
         exitButton.onClick.AddListener(GoToMenu);
+
+        if (muteToggle != null)
+            muteToggle.onValueChanged.AddListener(OnMuteToggleChanged);
+
+        if (subtitleToggle != null)
+            subtitleToggle.onValueChanged.AddListener(OnSubtitleToggleChanged);
+    }
+
+    private void OnEnable()
+    {
+        if (AudioSettingsManager.Instance != null)
+            muteToggle.SetIsOnWithoutNotify(!AudioSettingsManager.Instance.IsMuted);
+
+        if (SubtitleManager.Instance != null)
+            subtitleToggle.SetIsOnWithoutNotify(SubtitleManager.Instance.SubtitlesEnabled);
+    }
+
+    private void OnMuteToggleChanged(bool isOn)
+    {
+        if (AudioSettingsManager.Instance != null)
+            AudioSettingsManager.Instance.SetMute(!isOn);
+    }
+
+    private void OnSubtitleToggleChanged(bool isOn)
+    {
+        if (SubtitleManager.Instance != null)
+            SubtitleManager.Instance.SetEnabled(isOn);
     }
 
     public void GoToMenu()

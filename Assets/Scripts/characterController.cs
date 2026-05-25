@@ -99,7 +99,16 @@ public class characterController : MonoBehaviour
     void FixedUpdate()
     {
         bool wasGrounded = grounded;
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius * Mathf.Abs(transform.lossyScale.x), _contactFilter, _colliderBuffer) > 0;
+        int contactCount = rb2d.GetContacts(_contactFilter, _contactPointBuffer);
+        grounded = false;
+        for (int i = 0; i < contactCount; i++)
+        {
+            if (_contactPointBuffer[i].normal.y > 0.5f && _contactPointBuffer[i].normalImpulse > 0f)
+            {
+                grounded = true;
+                break;
+            }
+        }
         
         if(Time.time < jumpTime + stopCheckAfterJumpTime)
             grounded = false;
@@ -211,6 +220,7 @@ public class characterController : MonoBehaviour
     private States _state;
     private RaycastHit2D[] raycastHitBuffer = new RaycastHit2D[8];
     private Collider2D[] _colliderBuffer = new Collider2D[8];
+    private ContactPoint2D[] _contactPointBuffer = new ContactPoint2D[8];
 
     private States State
     {
@@ -280,6 +290,7 @@ public class characterController : MonoBehaviour
     
     public void Stop()
     {
+        inputHorizontal = 0f;
         rb2d.velocity = Vector2.zero;
         UpdateAnimatorParameters();
     }
