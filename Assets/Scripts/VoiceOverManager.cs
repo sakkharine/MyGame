@@ -46,7 +46,7 @@ public class VoiceOverManager : MonoBehaviour
     public void PlayVoice(EventReference voiceEvent)
     {
         voiceQueue.Enqueue(voiceEvent);
-
+        Debug.Log("VOICE: " + voiceEvent.Path);
         if (!isPlaying)
         {
             StartCoroutine(ProcessQueue());
@@ -63,7 +63,11 @@ public class VoiceOverManager : MonoBehaviour
 
             currentVoice = RuntimeManager.CreateInstance(nextVoice);
 
+            Debug.Log("VOICE INSTANCE CREATED");
+
             currentVoice.start();
+
+            Debug.Log("VOICE STARTED");
 
             PLAYBACK_STATE state;
 

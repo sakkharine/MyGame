@@ -12,14 +12,17 @@ public class MusicController : MonoBehaviour
 
     private void Awake()
     {
+        print("Awake");
         if (instance != null)
         {
             Destroy(gameObject);
             return;
         }
+        print("Awake 2");
 
         instance = this;
         DontDestroyOnLoad(gameObject);
+        print("Awake 3");
     }
 
     private System.Collections.IEnumerator Start()
@@ -30,7 +33,7 @@ public class MusicController : MonoBehaviour
         {
             RuntimeManager.LoadBank("Master", true);
             RuntimeManager.LoadBank("Master.strings", true);
-      
+            RuntimeManager.LoadBank("VO", true);
 
             musicInstance = RuntimeManager.CreateInstance("event:/Music/Monster");
             musicInstance.start();

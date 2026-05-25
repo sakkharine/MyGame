@@ -8,10 +8,15 @@ public class VoiceTrigger : MonoBehaviour
 
     private bool played = false;
 
-    private void OnTriggerEnter(Collider other)
+    
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("TRIGGER HIT");
         if (played)
             return;
+        Debug.Log("SOMETHING ENTERED");
+
+        Debug.Log(other.name);
 
         if (other.CompareTag("Player"))
         {

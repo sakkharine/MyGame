@@ -254,11 +254,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceLine:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2121663575
+      Data2: 1191837098
+      Data3: -741528911
+      Data4: 539692782
+    Path: event:/Voiceover/3Leshi
 --- !u!61 &6683945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2546,8 +2546,8 @@ MonoBehaviour:
   _objectToFollow: {fileID: 1681765186}
   _offset: {x: 0, y: 0}
   _smoothTime: 0.3
-  _followX: 1
-  _followY: 0
+  followX: 1
+  followY: 1
   _center: {x: -201.6, y: 0}
   _size: {x: 230.3, y: 14.12}
   _showGizmos: 1
@@ -3171,6 +3171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570885306}
   - component: {fileID: 570885307}
+  - component: {fileID: 570885308}
   m_Layer: 0
   m_Name: Pole1
   m_TagString: Untagged
@@ -3187,7 +3188,7 @@ Transform:
   m_GameObject: {fileID: 570885305}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.09, y: -8.42, z: 0}
+  m_LocalPosition: {x: -44.33, y: -8.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3222,7 +3223,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3238,6 +3239,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 15, y: 50}
   m_EdgeRadius: 0
+--- !u!114 &570885308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570885305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385a146ae271e5f4993807348683b1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+    Guid:
+      Data1: -99673393
+      Data2: 1279834889
+      Data3: 1359587518
+      Data4: 349177398
+    Path: event:/Voiceover/Pole 1
 --- !u!1 &573447081
 GameObject:
   m_ObjectHideFlags: 0
@@ -7427,11 +7447,11 @@ Transform:
   m_GameObject: {fileID: 1394173646}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 96.87897, y: 6.955923, z: 0.6413562}
+  m_LocalPosition: {x: -113.981384, y: 8.979071, z: -0.44749415}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1633324969}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1402131750
 GameObject:
@@ -7712,9 +7732,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4163373122407599751, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 27.25476
     - target: {fileID: 2518868815636388153, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7722,6 +7739,10 @@ PrefabInstance:
     - target: {fileID: 2729766269835838786, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163373122407599751, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 27.25476
       objectReference: {fileID: 0}
     - target: {fileID: 9109856405978255970, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_IsActive
@@ -8006,7 +8027,6 @@ Transform:
   - {fileID: 81171275}
   - {fileID: 1924205067}
   - {fileID: 369639142}
-  - {fileID: 1394173648}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1650436502
@@ -10319,11 +10339,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceLine:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -968551493
+      Data2: 1119198118
+      Data3: 1423537060
+      Data4: 2053547334
+    Path: event:/Voiceover/2 LEs
 --- !u!61 &2116093953
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10353,7 +10373,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10741,6 +10761,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 191846919}
   - {fileID: 1141478825}
+  - {fileID: 1394173648}
   - {fileID: 1633324969}
   - {fileID: 985590696}
   - {fileID: 1291441478}

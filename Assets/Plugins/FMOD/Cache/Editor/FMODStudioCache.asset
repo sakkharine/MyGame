@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8298278418629176712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/Voice Over
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/Voice Over
+  Guid:
+    Data1: -885322642
+    Data2: 1104655625
+    Data3: 995499672
+    Data4: 798380866
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6114834805603453320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/3Leshi
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/3Leshi
+  Guid:
+    Data1: -2121663575
+    Data2: 1191837098
+    Data3: -741528911
+    Data4: 539692782
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10225
 --- !u!114 &-5436331675613190207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24,6 +78,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2867088138758723001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/5 padarunak
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/5 padarunak
+  Guid:
+    Data1: 1196351225
+    Data2: 1245755223
+    Data3: 1138257545
+    Data4: 2118452953
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2359682663019916734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/2 LEs
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/2 LEs
+  Guid:
+    Data1: -968551493
+    Data2: 1119198118
+    Data3: 1423537060
+    Data4: 2053547334
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11496
 --- !u!114 &-1562658616399231646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48,6 +156,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-257268044980713116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/VO.bank
+  m_EditorClassIdentifier: 
+  Path: ../animation for pgis/music/boy/Build/Desktop/VO.bank
+  Name: VO
+  StudioPath: bank:/VO
+  lastModified: 639152461379753112
+  FileSizes:
+  - Name: Desktop
+    Value: 1044768
+  Exists: 1
 --- !u!114 &-51216090377979917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +191,7 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639152202545645063
+  lastModified: 639152454978345134
   FileSizes:
   - Name: Desktop
     Value: 5618816
@@ -83,18 +211,76 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 6333965662422978763}
   - {fileID: -51216090377979917}
+  - {fileID: -257268044980713116}
   EditorEvents:
   - {fileID: 7864663928479794625}
+  - {fileID: -8298278418629176712}
+  - {fileID: -2359682663019916734}
+  - {fileID: 2299328990252421144}
+  - {fileID: -6114834805603453320}
+  - {fileID: 4020146299590026083}
+  - {fileID: 8189520278076399439}
+  - {fileID: 8615541096328313329}
+  - {fileID: 7334305551443973745}
+  - {fileID: 1846734235415510085}
+  - {fileID: -2867088138758723001}
   EditorParameters: []
   MasterBanks:
   - {fileID: -51216090377979917}
   StringsBanks:
   - {fileID: 6333965662422978763}
   cacheVersion: 131859
-  cacheTime: 639152202545694026
+  cacheTime: 639152461379753112
   SerializableEventsDict:
   - key: event:/Music/Monster
     index: 0
+  - key: event:/Voiceover/Voice Over
+    index: 1
+  - key: event:/Voiceover/2 LEs
+    index: 2
+  - key: event:/Voiceover/Pole 1
+    index: 3
+  - key: event:/Voiceover/3Leshi
+    index: 4
+  - key: event:/Voiceover/7 kalyadi
+    index: 5
+  - key: event:/Voiceover/8 karagod
+    index: 6
+  - key: event:/Voiceover/9 vetser marana chakae
+    index: 7
+  - key: event:/Voiceover/6 gara
+    index: 8
+  - key: event:/Voiceover/4 Baba Yaga
+    index: 9
+  - key: event:/Voiceover/5 padarunak
+    index: 10
+--- !u!114 &1846734235415510085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/4 Baba Yaga
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/4 Baba Yaga
+  Guid:
+    Data1: 1813807596
+    Data2: 1230345071
+    Data3: 426631352
+    Data4: 2124811290
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22099
 --- !u!114 &2064060457378104639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +305,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2299328990252421144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/Pole 1
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/Pole 1
+  Guid:
+    Data1: -99673393
+    Data2: 1279834889
+    Data3: 1359587518
+    Data4: 349177398
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15796
+--- !u!114 &4020146299590026083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/7 kalyadi
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/7 kalyadi
+  Guid:
+    Data1: -2132804289
+    Data2: 1295947119
+    Data3: -549702732
+    Data4: 1732192913
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6333965662422978763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,10 +374,10 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639152202545694026
+  lastModified: 639152454978366238
   FileSizes:
   - Name: Desktop
-    Value: 998
+    Value: 1482
   Exists: 1
 --- !u!114 &6952930813095286263
 MonoBehaviour:
@@ -163,6 +403,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &7334305551443973745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/6 gara
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/6 gara
+  Guid:
+    Data1: 1302400185
+    Data2: 1076384231
+    Data3: 584280713
+    Data4: 612993531
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7487660063008242102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,3 +486,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 165631
+--- !u!114 &8189520278076399439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/8 karagod
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/8 karagod
+  Guid:
+    Data1: 1701317452
+    Data2: 1242719760
+    Data3: -1082065253
+    Data4: 1154902245
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8615541096328313329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/9 vetser marana chakae
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/9 vetser marana chakae
+  Guid:
+    Data1: -414126756
+    Data2: 1231098628
+    Data3: -2049697619
+    Data4: 1477107057
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
