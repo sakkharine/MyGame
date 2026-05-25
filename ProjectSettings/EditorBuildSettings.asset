@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/zima vorony.unity
     guid: f6fa74def31aeb9428e46e3ae180cc9a
+  - enabled: 1
+    path: Assets/Kolyadi/Kolyadi.unity
+    guid: 6df9b3bdc5964af4bb43c08521267098
   m_configObjects: {}

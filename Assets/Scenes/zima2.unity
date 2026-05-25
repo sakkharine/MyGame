@@ -455,9 +455,11 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1
+  stopCheckAfterJumpTime: 0.1
   anim: {fileID: 1160178226}
-  facingRight: 1
+  canMoveX: 1
   hasFlyAbility: 0
+  facingRight: 1
 --- !u!4 &245512803
 Transform:
   m_ObjectHideFlags: 0
@@ -701,8 +703,8 @@ MonoBehaviour:
   _objectToFollow: {fileID: 716569286}
   _offset: {x: 0, y: 0}
   _smoothTime: 0.3
-  _followX: 1
-  _followY: 0
+  followX: 1
+  followY: 1
   _center: {x: -61.2, y: 0}
   _size: {x: 50.8, y: 14.12}
   _showGizmos: 1
@@ -1172,9 +1174,11 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1
+  stopCheckAfterJumpTime: 0.1
   anim: {fileID: 0}
-  facingRight: 1
+  canMoveX: 1
   hasFlyAbility: 0
+  facingRight: 1
 --- !u!4 &716569286
 Transform:
   m_ObjectHideFlags: 0

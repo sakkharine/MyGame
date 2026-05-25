@@ -78,6 +78,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3836202377567374846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/Pachatak
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/Pachatak
+  Guid:
+    Data1: 1567630148
+    Data2: 1231502074
+    Data3: 757582466
+    Data4: -1905691598
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20530
 --- !u!114 &-2867088138758723001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,13 +125,40 @@ MonoBehaviour:
     Data4: 2118452953
   Banks:
   - {fileID: -257268044980713116}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 9801
+--- !u!114 &-2495088321040512759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/5.3 balota padkazka
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/5.3 balota padkazka
+  Guid:
+    Data1: 1549409791
+    Data2: 1342103165
+    Data3: 812101779
+    Data4: 1615109279
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12157
 --- !u!114 &-2359682663019916734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +210,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1365326147209308898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/Pachatak 2
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/Pachatak 2
+  Guid:
+    Data1: -235073355
+    Data2: 1075117280
+    Data3: 1269249951
+    Data4: -1719357107
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16608
 --- !u!114 &-257268044980713116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,10 +252,10 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 639152461379753112
+  lastModified: 639153163950659750
   FileSizes:
   - Name: Desktop
-    Value: 1044768
+    Value: 3563968
   Exists: 1
 --- !u!114 &-51216090377979917
 MonoBehaviour:
@@ -191,7 +272,7 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639152454978345134
+  lastModified: 639153272884454992
   FileSizes:
   - Name: Desktop
     Value: 5618816
@@ -224,13 +305,18 @@ MonoBehaviour:
   - {fileID: 7334305551443973745}
   - {fileID: 1846734235415510085}
   - {fileID: -2867088138758723001}
+  - {fileID: -3836202377567374846}
+  - {fileID: 1908523086497941710}
+  - {fileID: -1365326147209308898}
+  - {fileID: 7512491722004804767}
+  - {fileID: -2495088321040512759}
   EditorParameters: []
   MasterBanks:
   - {fileID: -51216090377979917}
   StringsBanks:
   - {fileID: 6333965662422978763}
   cacheVersion: 131859
-  cacheTime: 639152461379753112
+  cacheTime: 639153272884482974
   SerializableEventsDict:
   - key: event:/Music/Monster
     index: 0
@@ -254,6 +340,16 @@ MonoBehaviour:
     index: 9
   - key: event:/Voiceover/5 padarunak
     index: 10
+  - key: event:/Voiceover/Pachatak
+    index: 11
+  - key: event:/Voiceover/5.1 nava
+    index: 12
+  - key: event:/Voiceover/Pachatak 2
+    index: 13
+  - key: event:/Voiceover/5.2 zdolnast
+    index: 14
+  - key: event:/Voiceover/5.3 balota padkazka
+    index: 15
 --- !u!114 &1846734235415510085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +377,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 22099
+--- !u!114 &1908523086497941710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/5.1 nava
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/5.1 nava
+  Guid:
+    Data1: -592251067
+    Data2: 1340081051
+    Data3: -592855906
+    Data4: -1793301391
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19405
 --- !u!114 &2064060457378104639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,13 +475,13 @@ MonoBehaviour:
     Data4: 1732192913
   Banks:
   - {fileID: -257268044980713116}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 24120
 --- !u!114 &6333965662422978763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,10 +497,10 @@ MonoBehaviour:
   Path: ../animation for pgis/music/boy/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639152454978366238
+  lastModified: 639153272884482974
   FileSizes:
   - Name: Desktop
-    Value: 1482
+    Value: 1728
   Exists: 1
 --- !u!114 &6952930813095286263
 MonoBehaviour:
@@ -423,13 +546,13 @@ MonoBehaviour:
     Data4: 612993531
   Banks:
   - {fileID: -257268044980713116}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 26928
 --- !u!114 &7487660063008242102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,6 +577,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &7512491722004804767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voiceover/5.2 zdolnast
+  m_EditorClassIdentifier: 
+  Path: event:/Voiceover/5.2 zdolnast
+  Guid:
+    Data1: -1718704144
+    Data2: 1246891716
+    Data3: -1838281826
+    Data4: -225528937
+  Banks:
+  - {fileID: -257268044980713116}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13564
 --- !u!114 &7864663928479794625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,13 +656,13 @@ MonoBehaviour:
     Data4: 1154902245
   Banks:
   - {fileID: -257268044980713116}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 18480
 --- !u!114 &8615541096328313329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,10 +683,10 @@ MonoBehaviour:
     Data4: 1477107057
   Banks:
   - {fileID: -257268044980713116}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 25077

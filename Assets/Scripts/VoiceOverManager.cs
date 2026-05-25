@@ -16,6 +16,8 @@ public class VoiceOverManager : MonoBehaviour
 
     private EventInstance currentVoice;
 
+    private Coroutine queueCoroutine;
+
     private bool isPlaying = false;
 
     private void Awake()
@@ -46,10 +48,12 @@ public class VoiceOverManager : MonoBehaviour
     public void PlayVoice(EventReference voiceEvent)
     {
         voiceQueue.Enqueue(voiceEvent);
-        Debug.Log("VOICE: " + voiceEvent.Path);
+
+        Debug.Log("[VoiceOver] Added to queue: " + voiceEvent.Path);
+
         if (!isPlaying)
         {
-            StartCoroutine(ProcessQueue());
+            queueCoroutine = StartCoroutine(ProcessQueue());
         }
     }
 
@@ -63,11 +67,9 @@ public class VoiceOverManager : MonoBehaviour
 
             currentVoice = RuntimeManager.CreateInstance(nextVoice);
 
-            Debug.Log("VOICE INSTANCE CREATED");
-
             currentVoice.start();
 
-            Debug.Log("VOICE STARTED");
+            Debug.Log("[VoiceOver] Playing: " + nextVoice.Path);
 
             PLAYBACK_STATE state;
 
@@ -83,16 +85,32 @@ public class VoiceOverManager : MonoBehaviour
         }
 
         isPlaying = false;
+
+        queueCoroutine = null;
     }
 
     public void ClearQueue()
     {
+        Debug.Log("[VoiceOver] CLEAR QUEUE");
+
         voiceQueue.Clear();
+
+        if (queueCoroutine != null)
+        {
+            StopCoroutine(queueCoroutine);
+            queueCoroutine = null;
+        }
 
         if (currentVoice.isValid())
         {
+            PLAYBACK_STATE state;
+            currentVoice.getPlaybackState(out state);
+
+            Debug.Log("[VoiceOver] STOPPING CURRENT VOICE: " + state);
+
             currentVoice.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            currentVoice.release();
+
+            currentVoice.clearHandle();
         }
 
         isPlaying = false;

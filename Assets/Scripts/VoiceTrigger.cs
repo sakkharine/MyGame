@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using FMODUnity;
 
@@ -6,23 +7,42 @@ public class VoiceTrigger : MonoBehaviour
     [SerializeField]
     private EventReference voiceLine;
 
+    [SerializeField]
+    private bool clearQueueBeforePlay = false;
+
+    [SerializeField]
+    private bool playOnlyOnce = true;
+
     private bool played = false;
 
-    
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("TRIGGER HIT");
-        if (played)
+        if (playOnlyOnce && played)
             return;
-        Debug.Log("SOMETHING ENTERED");
 
-        Debug.Log(other.name);
+        if (!other.CompareTag("Player"))
+            return;
 
-        if (other.CompareTag("Player"))
+        StartCoroutine(PlayVoiceRoutine());
+
+        played = true;
+    }
+
+    private IEnumerator PlayVoiceRoutine()
+    {
+        if (VoiceOverManager.Instance == null)
         {
-            VoiceOverManager.Instance.PlayVoice(voiceLine);
-
-            played = true;
+            Debug.LogError("VoiceOverManager is NULL");
+            yield break;
         }
+
+        if (clearQueueBeforePlay)
+        {
+            VoiceOverManager.Instance.ClearQueue();
+
+            yield return null;
+        }
+
+        VoiceOverManager.Instance.PlayVoice(voiceLine);
     }
 }
