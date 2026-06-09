@@ -49,7 +49,7 @@ public class VoiceOverManager : MonoBehaviour
     {
         voiceQueue.Enqueue(voiceEvent);
 
-        Debug.Log("[VoiceOver] Added to queue: " + voiceEvent.Path);
+        Debug.Log("[VoiceOver] Added to queue");
 
         if (!isPlaying)
         {
@@ -69,7 +69,7 @@ public class VoiceOverManager : MonoBehaviour
 
             currentVoice.start();
 
-            Debug.Log("[VoiceOver] Playing: " + nextVoice.Path);
+            Debug.Log("[VoiceOver] Playing voice");
 
             PLAYBACK_STATE state;
 

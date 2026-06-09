@@ -175,6 +175,9 @@ MonoBehaviour:
       Data3: -2049697619
       Data4: 1477107057
     Path: event:/Voiceover/9 vetser marana chakae
+  clearQueueBeforePlay: 0
+  playOnlyOnce: 1
+  subtitles: []
 --- !u!61 &93876925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -881,6 +884,9 @@ MonoBehaviour:
       Data3: -1082065253
       Data4: 1154902245
     Path: event:/Voiceover/8 karagod
+  clearQueueBeforePlay: 0
+  playOnlyOnce: 1
+  subtitles: []
 --- !u!61 &1340692997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1456,7 +1462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a24132134467644a0bc8a6e20623bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: baba yaga scene
+  sceneName: FinalScene
   delayBeforeLoad: 0.1
   triggeringTag: Player
   verbose: 1

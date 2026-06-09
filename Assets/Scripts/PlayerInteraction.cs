@@ -23,7 +23,6 @@ public class PlayerInteraction : MonoBehaviour
     {
         if(MobileInput.Instance == null)
             return;
-        
         MobileInput.Instance.CanInteract = CheckForInteractable();
         
         if (Input.GetKeyDown(interactionKey))
@@ -60,7 +59,6 @@ public class PlayerInteraction : MonoBehaviour
     private void TryStartInteraction()
     {
         if (IsInteracting) return;
-
         Vector2 boxCenter = transform.position + characterController.FaceDirection * interactionIndent;
         Vector2 boxSize = new Vector2(interactionWidth, interactionHeight);
         

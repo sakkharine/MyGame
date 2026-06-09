@@ -137,11 +137,11 @@ public class characterController : MonoBehaviour
 
         if (grounded && Mathf.Abs(move) < 0.01f)
             newX = 0f;
-        if (grounded && Mathf.Abs(move) > 0.1f)
-        {
-            if (!IsInvoking("PlayFootstep"))
-                Invoke("PlayFootstep", 0.8f);
-        }
+        //if (grounded && Mathf.Abs(move) > 0.1f)
+        //{
+        //    if (!IsInvoking("PlayFootstep"))
+        //        Invoke("PlayFootstep", 0.8f);
+        //}
 
         if (canMoveX)
         {
@@ -160,8 +160,15 @@ public class characterController : MonoBehaviour
                     break;
                 }
             }
-            
-            Vector2 newVelocity = Vector3.Cross(hit.HasValue ? hit.Value.normal : Vector2.up, Vector3.forward) * newX;
+
+            Vector2 direction = Vector3.Cross(hit.HasValue ? hit.Value.normal : Vector2.up, Vector3.forward);
+            if (direction.y < -0.6f)
+            {
+                direction.x = Mathf.Sign(direction.x);
+                direction.y = 0f;
+            }
+
+            Vector2 newVelocity = direction * newX;
             Vector2 totalMovement = newVelocity;
 
             if (!grounded)
@@ -240,7 +247,7 @@ public class characterController : MonoBehaviour
 
     void PlayFootstep()
     {
-        SoundManager.PlayRandom("Footstep");
+        //SoundManager.PlayRandom("Footstep");
     }
 
     void TriggerJumpAnimation()
