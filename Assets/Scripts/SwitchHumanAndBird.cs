@@ -12,6 +12,9 @@ public class SwitchHumanAndBird : MonoBehaviour
     
     private bool isHuman = true;
 
+    public Collider2D _humanCollider;
+    public Collider2D _birdCollider;
+    
     private void Start()
     {
         MobileInput.Instance.CanSwitchForm = true;
@@ -42,6 +45,8 @@ public class SwitchHumanAndBird : MonoBehaviour
         animator.SetTrigger("Prev");
         characterControllerObject.enabled = false;
         flyingObject.enabled = true;
+        _humanCollider.enabled = false;
+        _birdCollider.enabled = true;
 
         camera.Zoom(birdStateCameraSize, 1f);
     }
@@ -57,7 +62,9 @@ public class SwitchHumanAndBird : MonoBehaviour
         animator.SetTrigger("Human");
         characterControllerObject.enabled = true;
         flyingObject.enabled = false;
-
+        _humanCollider.enabled = true;
+        _birdCollider.enabled = false;
+        
         camera.Zoom(humanStateCameraSize, 1f);
     }
 }
