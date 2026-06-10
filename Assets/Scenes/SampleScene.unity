@@ -10318,6 +10318,8 @@ MonoBehaviour:
   sceneName: baba yaga scene
   delayBeforeLoad: 0.1
   triggeringTag: Player
+  ignoreKarma: 1
+  isAltWorld: 0
   verbose: 1
 --- !u!212 &2077353460
 SpriteRenderer:

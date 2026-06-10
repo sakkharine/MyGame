@@ -5520,6 +5520,8 @@ MonoBehaviour:
   sceneName: hill_alt
   delayBeforeLoad: 0
   triggeringTag: Player
+  ignoreKarma: 0
+  isAltWorld: 1
   verbose: 1
 --- !u!61 &1759544052
 BoxCollider2D:

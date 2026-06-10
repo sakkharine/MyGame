@@ -151,7 +151,7 @@ public class characterController : MonoBehaviour
             for (int i = 0; i < size; i++)
             {
                 hit = raycastHitBuffer[i];
-                if (hit.Value.collider == this.col || hit.Value.collider.isTrigger)
+                if (hit.Value.collider == this.col || hit.Value.collider.isTrigger || hit.Value.normal.y < 0.49f)
                 {
                     hit = null;
                 }
@@ -326,6 +326,9 @@ public class characterController : MonoBehaviour
     {
         if (target == 0f)
             return influence;
+        
+        if(influence == 0f)
+            return target;
 
         if (Mathf.Sign(target) == Mathf.Sign(influence))
         {
@@ -333,7 +336,7 @@ public class characterController : MonoBehaviour
         }
         else
         {
-            return target - influence;
+            return influence;
         }
     }
 }

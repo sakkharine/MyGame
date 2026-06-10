@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Collider2D))]
@@ -14,6 +14,11 @@ public class TriggerSceneLoader : MonoBehaviour
     [Header("Player Settings")]
     [Tooltip("Тег объекта, который активирует триггер (обычно 'Player')")]
     public string triggeringTag = "Player";
+
+    [Header("Karma Settings")]
+    public bool ignoreKarma;
+    [Tooltip("Если true — переход засчитывается в карму Альтернативного мира, иначе — Настоящего")]
+    public bool isAltWorld;
 
     [Header("Debug")]
     [Tooltip("Если true — будут подробные логи в консоли")]
@@ -62,7 +67,15 @@ public class TriggerSceneLoader : MonoBehaviour
         }
 
         isTriggered = true;
-
+        
+        if(!ignoreKarma)
+        {
+            if (isAltWorld)
+                KarmaCounter.AddToAltWorld();
+            else
+                KarmaCounter.AddToRealWorld();
+        }
+        
         if (delayBeforeLoad > 0f)
         {
             if (verbose) Debug.Log($"[TriggerSceneLoader]  Переход на сцену '{sceneName}' через {delayBeforeLoad} секунд...");

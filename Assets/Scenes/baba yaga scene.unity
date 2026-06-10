@@ -156,6 +156,8 @@ MonoBehaviour:
   sceneName: swampp
   delayBeforeLoad: 0
   triggeringTag: Player
+  ignoreKarma: 1
+  isAltWorld: 0
   verbose: 1
 --- !u!61 &43839111
 BoxCollider2D:
@@ -1248,6 +1250,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8452460237818760531, guid: 5b2569b344deded45a44fe7e44ef595d, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452460237818760531, guid: 5b2569b344deded45a44fe7e44ef595d, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8452460237818760531, guid: 5b2569b344deded45a44fe7e44ef595d, type: 3}

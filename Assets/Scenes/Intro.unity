@@ -415,7 +415,7 @@ MonoBehaviour:
   subtitles: []
   pictures: []
   image: {fileID: 1890119563}
-  sceneAfterIntro: 
+  sceneAfterIntro: SampleScene
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
