@@ -1,4 +1,5 @@
 using FMODUnity;
+using FMOD.Studio;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using UnityEngine.UI;
 public class Intro : MonoBehaviour
 {
     [SerializeField]
-    private EventReference voiceLine;
+    private EventReference[] voiceLines;
 
     [SerializeField]
     private SubtitleLine[] subtitles;
@@ -28,18 +29,27 @@ public class Intro : MonoBehaviour
 
     private IEnumerator PlayVoiceRoutine()
     {
-        if (VoiceOverManager.Instance == null)
-        {
-            Debug.LogError("VoiceOverManager is NULL");
-            yield break;
-        }
-
-        VoiceOverManager.Instance.PlayVoice(voiceLine);
-
         if (subtitles != null && subtitles.Length > 0)
             StartCoroutine(PlaySubtitles());
 
         StartCoroutine(PlayPictures());
+
+        foreach (EventReference voiceLine in voiceLines)
+        {
+            EventInstance instance = RuntimeManager.CreateInstance(voiceLine);
+            instance.start();
+
+            PLAYBACK_STATE state;
+            do
+            {
+                instance.getPlaybackState(out state);
+                yield return null;
+            } while (state != PLAYBACK_STATE.STOPPED);
+
+            instance.release();
+            
+            yield return new WaitForSeconds(3f);
+        }
     }
 
     private IEnumerator PlaySubtitles()
