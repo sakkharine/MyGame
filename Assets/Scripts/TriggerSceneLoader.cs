@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Collider2D))]
@@ -15,6 +15,19 @@ public class TriggerSceneLoader : MonoBehaviour
     [Tooltip("Тег объекта, который активирует триггер (обычно 'Player')")]
     public string triggeringTag = "Player";
 
+    [Header("Karma Settings")]
+    public bool ignoreKarma;
+    [Tooltip("Если true — переход засчитывается в карму Альтернативного мира, иначе — Настоящего")]
+    public bool isAltWorld;
+
+
+    [Header("Karma Settings")] 
+    public bool isSceneDependsOnKarma;
+
+    public string goodKarmaScene;
+    public string equalKarmaScene;
+    public string badKarmaScene;
+    
     [Header("Debug")]
     [Tooltip("Если true — будут подробные логи в консоли")]
     public bool verbose = true;
@@ -62,7 +75,15 @@ public class TriggerSceneLoader : MonoBehaviour
         }
 
         isTriggered = true;
-
+        
+        if(!ignoreKarma)
+        {
+            if (isAltWorld)
+                KarmaCounter.AddToAltWorld();
+            else
+                KarmaCounter.AddToRealWorld();
+        }
+        
         if (delayBeforeLoad > 0f)
         {
             if (verbose) Debug.Log($"[TriggerSceneLoader]  Переход на сцену '{sceneName}' через {delayBeforeLoad} секунд...");
@@ -86,7 +107,26 @@ public class TriggerSceneLoader : MonoBehaviour
         if (verbose)
             Debug.Log($"[TriggerSceneLoader] Загружаем сцену '{sceneName}'...");
 
-        SceneManager.LoadScene(sceneName);
+        if (isSceneDependsOnKarma)
+        {
+            int altWorldScore = KarmaCounter.AltWorldScore;
+            int goodWorldScore = KarmaCounter.RealWorldScore;
+            
+            if (altWorldScore > goodWorldScore)
+            {
+                SceneManager.LoadScene(badKarmaScene);
+            }
+            else if(altWorldScore < goodWorldScore)
+            {
+                SceneManager.LoadScene(goodWorldScore);
+            }
+            else
+            {
+                SceneManager.LoadScene(equalKarmaScene);
+            }
+        }
+        else
+            SceneManager.LoadScene(sceneName);
     }
 
     // Визуализация границ триггера

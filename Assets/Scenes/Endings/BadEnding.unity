@@ -233,10 +233,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 3899381561835531231, guid: a141e588b3524644482617252c356e7c, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4027405256725404503, guid: a141e588b3524644482617252c356e7c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -317,20 +313,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5135201780314791061, guid: a141e588b3524644482617252c356e7c, type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 8618222417957956847, guid: a141e588b3524644482617252c356e7c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8618222417957956847, guid: a141e588b3524644482617252c356e7c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8618222417957956847, guid: a141e588b3524644482617252c356e7c, type: 3}
-      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8618222417957956847, guid: a141e588b3524644482617252c356e7c, type: 3}

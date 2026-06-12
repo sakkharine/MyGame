@@ -5520,6 +5520,8 @@ MonoBehaviour:
   sceneName: hill_alt
   delayBeforeLoad: 0
   triggeringTag: Player
+  ignoreKarma: 0
+  isAltWorld: 1
   verbose: 1
 --- !u!61 &1759544052
 BoxCollider2D:
@@ -6471,6 +6473,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4642154798377756280, guid: 5b2569b344deded45a44fe7e44ef595d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5222417025410087214, guid: 5b2569b344deded45a44fe7e44ef595d, type: 3}
+      propertyPath: value
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8452460237818760531, guid: 5b2569b344deded45a44fe7e44ef595d, type: 3}

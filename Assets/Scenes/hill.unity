@@ -1748,11 +1748,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 739359666775686776, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -53.2
+      value: -149.5
       objectReference: {fileID: 0}
     - target: {fileID: 739359666775686776, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 35.1
+      value: -6.7
       objectReference: {fileID: 0}
     - target: {fileID: 739359666775686776, guid: 4cc77265af720bf47a8dab9205407497, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2402,6 +2402,8 @@ MonoBehaviour:
   sceneName: zima1
   delayBeforeLoad: 0
   triggeringTag: Player
+  ignoreKarma: 0
+  isAltWorld: 0
   verbose: 1
 --- !u!61 &1259213355
 BoxCollider2D:
