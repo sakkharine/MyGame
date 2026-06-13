@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -112,6 +113,18 @@ public class CameraFollowScript : MonoBehaviour
             ref _currentVelocity,
             _smoothTime
         );
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (!_showGizmos)
+            return;
+
+        var color = Color.green;
+        color.a = 0.1f;
+        Gizmos.color = color;
+
+        Gizmos.DrawCube(_center, _size*2f);
     }
 
     private void OnDrawGizmos()

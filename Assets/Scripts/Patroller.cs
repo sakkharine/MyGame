@@ -7,8 +7,8 @@ public class Patroller : MonoBehaviour
     public float speed;
 
     private Vector3 _startPosition;
-    private float _t = 0f;
-    private int _direction = 1;
+    private Vector3 _direction;
+    private bool _goingToDestination = true;
 
     private void Reset()
     {
@@ -18,29 +18,22 @@ public class Patroller : MonoBehaviour
     private void Start()
     {
         _startPosition = transform.position;
+        _direction = (Destination - _startPosition).normalized;
     }
 
     private void Update()
     {
-        _t += Time.deltaTime * speed * _direction;
+        transform.position += speed * _direction * Time.deltaTime;
 
-        if (_t >= 1f)
+        Vector3 target = _goingToDestination ? Destination : _startPosition;
+
+        if (Vector3.Dot(target - transform.position, _direction) <= 0f)
         {
-            _t = 1f;
-            _direction = -1;
+            transform.position = target;
+            _direction = -_direction;
+            _goingToDestination = !_goingToDestination;
             Flip();
         }
-        else if (_t <= 0f)
-        {
-            _t = 0f;
-            _direction = 1;
-            Flip(); 
-        }
-
-        float distance = Vector3.Distance(_startPosition, Destination);
-        float adjustedT = distance > 0f ? _t : 0f;
-
-        transform.position = Vector3.Lerp(_startPosition, Destination, adjustedT);
     }
 
     private void Flip()
