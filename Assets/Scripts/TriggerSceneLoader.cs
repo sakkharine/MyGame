@@ -25,7 +25,6 @@ public class TriggerSceneLoader : MonoBehaviour
     public bool isSceneDependsOnKarma;
 
     public string goodKarmaScene;
-    public string equalKarmaScene;
     public string badKarmaScene;
     
     [Header("Debug")]
@@ -96,7 +95,7 @@ public class TriggerSceneLoader : MonoBehaviour
         }
     }
 
-    private void LoadScene()
+    public void LoadScene()
     {
         if (string.IsNullOrEmpty(sceneName))
         {
@@ -116,13 +115,9 @@ public class TriggerSceneLoader : MonoBehaviour
             {
                 SceneManager.LoadScene(badKarmaScene);
             }
-            else if(altWorldScore < goodWorldScore)
-            {
-                SceneManager.LoadScene(goodWorldScore);
-            }
             else
             {
-                SceneManager.LoadScene(equalKarmaScene);
+                SceneManager.LoadScene(goodKarmaScene);
             }
         }
         else

@@ -156,11 +156,10 @@ MonoBehaviour:
   sceneName: swampp
   delayBeforeLoad: 0
   triggeringTag: Player
-  ignoreKarma: 1
+  ignoreKarma: 0
   isAltWorld: 0
   isSceneDependsOnKarma: 0
   goodKarmaScene: 
-  equalKarmaScene: 
   badKarmaScene: 
   verbose: 1
 --- !u!61 &43839111
@@ -401,7 +400,6 @@ MonoBehaviour:
   isAltWorld: 0
   isSceneDependsOnKarma: 0
   goodKarmaScene: 
-  equalKarmaScene: 
   badKarmaScene: 
   verbose: 1
 --- !u!61 &457307065
