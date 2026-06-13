@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: b14f19684591dca4689a30221737b4d0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vedma anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3047
+        width: 383
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a26bd0aaaf7b44998dc1f33b7fd42c
+      internalID: 857599677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3047
+        width: 411
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f0e8474733b2e4ab1c5af10fa9f262
+      internalID: 1648630204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_2
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 3047
+        width: 433
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaed214ae380984e97e7b376021e73d
+      internalID: -1134935318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_3
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 3047
+        width: 452
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f865bc874b97c47920271a07595395
+      internalID: -1193074774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_5
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 3047
+        width: 490
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a11c22ec0163834e8f992953554d930
+      internalID: 166527516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_7
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 3047
+        width: 523
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0c8dd412f031f4b92ec88a059073db
+      internalID: 701575496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_9
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 3047
+        width: 519
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199a6b9d7c0f60648a3626145b7fc6a5
+      internalID: -1944948217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_11
+      rect:
+        serializedVersion: 2
+        x: 4082
+        y: 3047
+        width: 520
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c33cc588ccae64f8afad9e50776066
+      internalID: 644930118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_13
+      rect:
+        serializedVersion: 2
+        x: 4719
+        y: 3047
+        width: 535
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4262ad01a2a99b4d8eb1f900c17e0c9
+      internalID: 23459716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_14
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 3047
+        width: 403
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 358, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d42c8a5ce030140b7f17f2569f76b2
+      internalID: 1102794483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1771
+        width: 337
+        height: 1128
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547b46a82c5863c468f4952c1b354edc
+      internalID: -1869345444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_16
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1771
+        width: 340
+        height: 1132
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263871b2fd31aff42ba4793fda50b476
+      internalID: 1025600154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_17
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1768
+        width: 342
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aa3a2969549e04fa52b0ce84cd0a75
+      internalID: 60763216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_18
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1771
+        width: 335
+        height: 1130
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14a869302cc87c469d34d1b1beeeb7c
+      internalID: 709224733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_19
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 1768
+        width: 415
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15269bd46e1401f4a9350e63ff157cce
+      internalID: 61164958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_20
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 1771
+        width: 799
+        height: 1132
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc853cb7e1bd8b149b47796fc8cf209c
+      internalID: -1997388405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_21
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 1771
+        width: 736
+        height: 1132
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cca00bf28f54544a9cc5ce33fbbabb4
+      internalID: 836600682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_23
+      rect:
+        serializedVersion: 2
+        x: 5167
+        y: 1768
+        width: 668
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aa5f28b61adb64b9dd86db23f2a2a2
+      internalID: -1766522818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 492
+        width: 621
+        height: 1132
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94900afae2d7ef4ab1d3fc35548a95e
+      internalID: -1639417766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_29
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 493
+        width: 492
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5726b408af635d04680ad799a89b6333
+      internalID: 1154621567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_30
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 492
+        width: 420
+        height: 1132
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16177e419c295644b176ecdb1d872f7
+      internalID: 1346493517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_31
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 489
+        width: 415
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec830a8e3a82904d940a3d1837bc3b3
+      internalID: -169382365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_32
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 489
+        width: 415
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5046e6155a2de48999508822b6c986
+      internalID: 1017673065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_33
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 489
+        width: 415
+        height: 1131
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6092da47915a2964486f633fbb4ec579
+      internalID: 1768777624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vedma anim_34
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 485
+        width: 416
+        height: 1132
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5b348be23aaa04aac336bf9b6cf184
+      internalID: -843625284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vedma anim_0: 857599677
+      vedma anim_1: 1648630204
+      vedma anim_10: -1647679706
+      vedma anim_11: 644930118
+      vedma anim_12: 934573659
+      vedma anim_13: 23459716
+      vedma anim_14: 1102794483
+      vedma anim_15: -1869345444
+      vedma anim_16: 1025600154
+      vedma anim_17: 60763216
+      vedma anim_18: 709224733
+      vedma anim_19: 61164958
+      vedma anim_2: -1134935318
+      vedma anim_20: -1997388405
+      vedma anim_21: 836600682
+      vedma anim_22: -2133924095
+      vedma anim_23: -1766522818
+      vedma anim_24: -1329453556
+      vedma anim_25: -1973783777
+      vedma anim_26: 954636331
+      vedma anim_27: -880556491
+      vedma anim_28: -1639417766
+      vedma anim_29: 1154621567
+      vedma anim_3: -1193074774
+      vedma anim_30: 1346493517
+      vedma anim_31: -169382365
+      vedma anim_32: 1017673065
+      vedma anim_33: 1768777624
+      vedma anim_34: -843625284
+      vedma anim_35: -1405882437
+      vedma anim_4: 1072280408
+      vedma anim_5: 166527516
+      vedma anim_6: -170305947
+      vedma anim_7: 701575496
+      vedma anim_8: 580601146
+      vedma anim_9: -1944948217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
