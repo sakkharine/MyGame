@@ -599,8 +599,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../animation for pgis/music/boy/boy.fspro
-  sourceBankPath: ../animation for pgis/music/boy/Build
+  sourceProjectPath: ../OneDrive/OneDrive - andersenlab.com/animation for pgis/music/boy/boy.fspro
+  sourceBankPath: ../OneDrive/OneDrive - andersenlab.com/animation for pgis/music/boy/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -622,8 +622,10 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - VO
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
