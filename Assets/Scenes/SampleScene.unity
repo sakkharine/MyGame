@@ -1380,7 +1380,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 9fb4e3621772f6d4fac19c3f8f7e049f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1465,7 +1465,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 43643833ae4f3144b99695fbdc722401, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6471,7 +6471,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 43643833ae4f3144b99695fbdc722401, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6556,7 +6556,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c66fcc8cc8bde7d4996eb5db9844931a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7616,7 +7616,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 5a768608070363446be057d318d782fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9775,8 +9775,8 @@ Transform:
   m_GameObject: {fileID: 1914572793}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 99.89035, y: -0.15314782, z: 1.0888504}
-  m_LocalScale: {x: 4.144966, y: 3.4016814, z: 3.45138}
+  m_LocalPosition: {x: 99.89035, y: 0.7398, z: 1.0888504}
+  m_LocalScale: {x: 4.144966, y: 3.1955395, z: 3.45138}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 191846919}
@@ -10320,6 +10320,25 @@ MonoBehaviour:
   triggeringTag: Player
   ignoreKarma: 1
   isAltWorld: 0
+  isSceneDependsOnKarma: 0
+  goodKarmaScene: 
+  badKarmaScene: 
+  goodEndingVoice:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  badEndingVoice:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  goodEndingSubtitles: []
+  badEndingSubtitles: []
   verbose: 1
 --- !u!212 &2077353460
 SpriteRenderer:

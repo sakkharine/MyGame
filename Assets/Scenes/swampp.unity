@@ -2580,10 +2580,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceLine:
     Guid:
-      Data1: 1549409791
-      Data2: 1342103165
-      Data3: 812101779
-      Data4: 1615109279
+      Data1: -1061859368
+      Data2: 1167436006
+      Data3: -316716911
+      Data4: 1987755373
     Path: event:/Voiceover/5.3 balota padkazka
   clearQueueBeforePlay: 0
   playOnlyOnce: 1
@@ -2833,6 +2833,11 @@ MonoBehaviour:
   sceneName: hill
   delayBeforeLoad: 0
   triggeringTag: Player
+  ignoreKarma: 0
+  isAltWorld: 0
+  isSceneDependsOnKarma: 0
+  goodKarmaScene: 
+  badKarmaScene: 
   verbose: 1
 --- !u!61 &1102259784
 BoxCollider2D:

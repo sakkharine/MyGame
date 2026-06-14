@@ -19,7 +19,7 @@ public class VoiceOverManager : MonoBehaviour
     private Coroutine queueCoroutine;
 
     private bool isPlaying = false;
-
+public bool IsPlaying => isPlaying;
     private void Awake()
     {
         if (instance != null)

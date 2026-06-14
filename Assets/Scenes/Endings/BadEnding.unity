@@ -229,6 +229,64 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: sceneAfterIntro
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: pictures.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: subtitles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: voiceLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: subtitles.Array.data[0].text
+      value: "\u0421\u044F\u0441\u0442\u0440\u0443 \u044F\u043D\u0430 \u0432\u044B\u043B\u0435\u0447\u044B\u043B\u0430
+        \u0441\u0430\u043C\u0430, \u0430\u043B\u0435 \u0441\u044F\u0440\u043E\u0434
+        \u043B\u044E\u0434\u0437\u0435\u0439 \u0451\u0439 \u043C\u0435\u0441\u0446\u0430
+        \u0431\u043E\u043B\u044C\u0448 \u043D\u044F\u043C\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: subtitles.Array.data[1].text
+      value: "\u0421\u044F\u0441\u0442\u0440\u0443 \u044F\u043D\u0430 \u0432\u044B\u043B\u0435\u0447\u044B\u043B\u0430
+        \u0441\u0430\u043C\u0430, \u0430\u043B\u0435 \u0441\u044F\u0440\u043E\u0434
+        \u043B\u044E\u0434\u0437\u0435\u0439 \u0451\u0439 \u043C\u0435\u0441\u0446\u0430
+        \u0431\u043E\u043B\u044C\u0448 \u043D\u044F\u043C\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: subtitles.Array.data[1].time
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: pictures.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 16375eefc9ce47b43bd6b66975d2a6d4, type: 3}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: voiceLines.Array.data[0].Path
+      value: event:/Voiceover/kanecalt 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: voiceLines.Array.data[0].Guid.Data1
+      value: 2078401514
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: voiceLines.Array.data[0].Guid.Data2
+      value: 1104379067
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: voiceLines.Array.data[0].Guid.Data3
+      value: -855611972
+      objectReference: {fileID: 0}
+    - target: {fileID: 35974027499967592, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: voiceLines.Array.data[0].Guid.Data4
+      value: -1437500345
+      objectReference: {fileID: 0}
     - target: {fileID: 1175256797458646740, guid: a141e588b3524644482617252c356e7c, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -319,6 +377,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8618222417957956847, guid: a141e588b3524644482617252c356e7c, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8618222417957956847, guid: a141e588b3524644482617252c356e7c, type: 3}
+      propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8618222417957956847, guid: a141e588b3524644482617252c356e7c, type: 3}

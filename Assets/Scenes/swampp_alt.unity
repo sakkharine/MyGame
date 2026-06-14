@@ -868,10 +868,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceLine:
     Guid:
-      Data1: -592251067
-      Data2: 1340081051
-      Data3: -592855906
-      Data4: -1793301391
+      Data1: -1730190534
+      Data2: 1294165200
+      Data3: -1483477350
+      Data4: 1567095302
     Path: event:/Voiceover/5.1 nava
   clearQueueBeforePlay: 0
   playOnlyOnce: 1
@@ -4003,10 +4003,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceLine:
     Guid:
-      Data1: 1549409791
-      Data2: 1342103165
-      Data3: 812101779
-      Data4: 1615109279
+      Data1: -1061859368
+      Data2: 1167436006
+      Data3: -316716911
+      Data4: 1987755373
     Path: event:/Voiceover/5.3 balota padkazka
   clearQueueBeforePlay: 0
   playOnlyOnce: 1
@@ -4405,10 +4405,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   voiceLine:
     Guid:
-      Data1: -1718704144
-      Data2: 1246891716
-      Data3: -1838281826
-      Data4: -225528937
+      Data1: 1364129931
+      Data2: 1106568675
+      Data3: -1340243016
+      Data4: -70635164
     Path: event:/Voiceover/5.2 zdolnast
   clearQueueBeforePlay: 0
   playOnlyOnce: 1
@@ -5522,6 +5522,9 @@ MonoBehaviour:
   triggeringTag: Player
   ignoreKarma: 0
   isAltWorld: 1
+  isSceneDependsOnKarma: 0
+  goodKarmaScene: 
+  badKarmaScene: 
   verbose: 1
 --- !u!61 &1759544052
 BoxCollider2D:

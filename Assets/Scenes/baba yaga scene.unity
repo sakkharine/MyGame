@@ -158,6 +158,25 @@ MonoBehaviour:
   triggeringTag: Player
   ignoreKarma: 1
   isAltWorld: 0
+  isSceneDependsOnKarma: 0
+  goodKarmaScene: 
+  badKarmaScene: 
+  goodEndingVoice:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  badEndingVoice:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  goodEndingSubtitles: []
+  badEndingSubtitles: []
   verbose: 1
 --- !u!61 &43839111
 BoxCollider2D:
@@ -963,7 +982,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 9896a44f569e8424ab5d3eb0d7755533, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1081,7 +1100,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 00bfb9f86f4772948a46e6a09bdc2bae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

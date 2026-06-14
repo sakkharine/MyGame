@@ -1571,6 +1571,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4894561405593880409, guid: a4ff9eec4a2b5a045956c8dae059c3a7, type: 3}
+      propertyPath: m_text
+      value: "\u0447\u0430\u043F\u0430\u0446\u044C"
+      objectReference: {fileID: 0}
     - target: {fileID: 6152364052167343245, guid: a4ff9eec4a2b5a045956c8dae059c3a7, type: 3}
       propertyPath: m_Name
       value: MobileInput

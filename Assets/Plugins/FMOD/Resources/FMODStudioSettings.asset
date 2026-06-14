@@ -599,8 +599,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../OneDrive/OneDrive - andersenlab.com/animation for pgis/music/boy/boy.fspro
-  sourceBankPath: ../OneDrive/OneDrive - andersenlab.com/animation for pgis/music/boy/Build
+  sourceProjectPath: ../animation for pgis/music/boy/boy.fspro
+  sourceBankPath: ../animation for pgis/music/boy/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -608,9 +608,9 @@ MonoBehaviour:
   BankLoadType: 0
   AutomaticSampleLoading: 0
   EncryptionKey: 
-  ImportType: 1
+  ImportType: 0
   TargetAssetPath: FMODBanks
-  TargetBankFolder: 
+  TargetBankFolder: FMODBanks
   EventLinkage: 0
   SerializeGUIDsOnly: 0
   LoggingLevel: 2
